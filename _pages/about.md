@@ -26,7 +26,7 @@ Here, I invite you to embark on a journey through my professional endeavors, ach
 From my portfolio and accomplishments to my insights and experiences, 
 I am thrilled to share my world with you.
 
-So, grab a virtual seat, explore with curiosity, and let's connect on this exciting path of professional growth and success!
+So, grab a virtual seat, explore with curiosity, and let's connect with my professional growth!
 
 <!-- Tirana Noor Fatyanosa (Graduate Student Member, IEEE) received the B.S. and M.S. degrees in computer science from Brawijaya University, Indonesia, in 2013 and 2017, respectively. She is currently pursuing the Ph.D. degree with the Graduate School of Science and Technology, Kumamoto University, Japan. From 2013 to 2018, she also embarked on her technical career with several IT companies: Mitrais and Anomadic, working as a Software Engineer and a Quality Assurance Specialist. Also, she has worked with Kata.ai, as an AI Research Scientist Intern. Her research interests include deep neuroevolution, focusing on the automatic hyperparameters and architecture optimization of deep neural networks using an evolutionary algorithm. -->
 
