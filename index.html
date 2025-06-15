@@ -227,20 +227,33 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 </div>
 
         <!-- Entry bib key -->
-        <div id="Fatyanosa2022" class="col-sm-8">
+        <div id="cahyawijaya-etal-2023-nusacrowd" class="col-sm-8">
         <!-- Title -->
-        <div class="title">An Automatic Convolutional Neural Network Optimization Using a Diversity-Guided Genetic Algorithm</div>
+        <div class="title">NusaCrowd: Open Source Initiative for Indonesian NLP Resources</div>
         <!-- Author -->
         <div class="author">
         
 
-        Tirana Noor Fatyanosa, and Masayoshi Aritsugi</div>
+        Samuel Cahyawijaya, Holy Lovenia, Alham Fikri Aji, and
+          <span class="more-authors" title="click to view 45 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '45 more authors' ? 'Genta Winata, Bryan Wilie, Fajri Koto, Rahmad Mahendra, Christian Wibisono, Ade Romadhony, Karissa Vincentio, Jennifer Santoso, David Moeljadi, Cahya Wirawan, Frederikus Hudi, Muhammad Satrio Wicaksono, Ivan Parmonangan, Ika Alfina, Ilham Firdausi Putra, Samsul Rahmadani, Yulianti Oenang, Ali Septiandri, James Jaya, Kaustubh Dhole, Arie Suryani, Rifki Afina Putri, Dan Su, Keith Stevens, Made Nindyatama Nityasya, Muhammad Adilazuarda, Ryan Hadiwijaya, Ryandito Diandaru, Tiezheng Yu, Vito Ghifari, Wenliang Dai, Yan Xu, Dyah Damapuspita, Haryo Wibowo, Cuk Tho, Ichwanul Karo Karo, Tirana Fatyanosa, Ziwei Ji, Graham Neubig, Timothy Baldwin, Sebastian Ruder, Pascale Fung, Herry Sujaini, Sakriani Sakti, Ayu Purwarianti' : '45 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">45 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>IEEE Access</em>, 2021
+          <em>In Findings of the Association for Computational Linguistics: ACL 2023</em>, Jul 2023
         </div>
         <div class="periodical">
           
@@ -248,14 +261,18 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/ACCESS.2021.3091729"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/ACCESS.2021.3091729" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.18653/v1/2023.findings-acl.868"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2023.findings-acl.868" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments.NusaCrowd’s data collection enables the creation of the first zero-shot benchmarks for natural language understanding and generation in Indonesian and the local languages of Indonesia. Furthermore, NusaCrowd brings the creation of the first multilingual automatic speech recognition benchmark in Indonesian and the local languages of Indonesia. Our work strives to advance natural language processing (NLP) research for languages that are under-represented despite being widely spoken.</p>
+          </div>
         </div>
       </div>
 </li></ol>
