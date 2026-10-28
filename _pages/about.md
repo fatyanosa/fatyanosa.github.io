@@ -15,7 +15,7 @@ profile:
 
 news: false  # includes a list of news items
 main_projects: true  # includes the cards of projects in the 'main' category
-latest_posts: true  # includes a list of the newest posts
+latest_publications: 5  # number of newest publications (from Google Scholar) to show
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

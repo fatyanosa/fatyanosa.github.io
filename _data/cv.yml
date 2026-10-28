@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy
+    - title: Doctor of Philosophy (PhD), Computer Science
       institution: Kumamoto University
       year: 2018-2021
       description:
@@ -21,13 +21,13 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Master's Degree
-      institution: Brawijaya University
+    - title: Master's Degree, Computer Science
+      institution: Universitas Brawijaya
       year: 2016-2017
       description:
         - Completing education within 1.5 years with GPA 3.80.
-    - title: Bachelor's Degree
-      institution: Brawijaya University
+    - title: Bachelor's Degree, Computer Science
+      institution: Universitas Brawijaya
       year: 2008-2013
       description:
         - Completing education within 4.5 years with GPA 3.43.
@@ -35,41 +35,77 @@
 - title: Experience
   type: time_table
   contents:
+    - title: AI Engineer
+      institution: PediaExpert.id
+      year: 2025-Present
+      description:
+        - Designs, develops, and deploys end-to-end AI solutions (RAG-based clinical nutrition chatbot) combining machine learning, deep learning, and data engineering.
     - title: Assistant Professor
-      institution: Brawijaya University
+      institution: Faculty of Computer Science (FILKOM), Universitas Brawijaya
       year: 2023-Present
+    - title: Artificial Intelligence Digital Talent Tutor
+      institution: Ministry of Communication and Information Technology of the Republic of Indonesia
+      year: 2026
+      description:
+        - Taught AI subjects such as Deep Learning and Retrieval-Augmented Generation, guiding students through hands-on projects and real-world case studies (February-June 2026).
+    - title: Data Science Trainer
+      institution: AMD Academy | IT Training Center
+      year: 2025
+      description:
+        - Delivered Data Science training for companies and academic institutions, teaching Machine Learning and AI, preparing participants for BNSP Data Science Certification (August-November 2025).
     - title: Data Science Consultant
       institution: Kumamoto University
       year: 2022-2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
     - title: Researcher
       institution: Kumamoto University
       year: 2021-2022
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-
     - title: AI Research Scientist Intern
       institution: Kata.ai
       year: 2020-2021
-
+      description:
+        - Conducted applied research, advanced state-of-the-art machine learning, and collaboratively developed products and services with other groups in the company.
     - title: Quality Assurance Specialist
       institution: Anomadic
       year: 2017-2018
-      # description:
-
+      description:
+        - Developed test plans and tested new features of web and mobile apps with developers and the product team.
+        - Took part in requirements gathering and implemented design changes, unit tests, and regression tests for performance and data integrity.
     - title: Research Assistant
-      institution: Brawijaya University
+      institution: Faculty of Computer Science (FILKOM), Universitas Brawijaya
       year: 2016-2017
+      description:
+        - Assisted with academic research, supervised undergraduate students on research projects, and helped produce academic journals.
     - title: Software Engineer
       institution: Mitrais
       year: 2013-2016
+    - title: Software Engineering Lab Assistant
+      institution: Universitas Brawijaya
+      year: 2012
+    - title: Business Owner, Bike In Campus (BIC)
+      institution: Student Entrepreneurial Program (PMW), funded by DIKTI
+      year: 2010-2012
+      description:
+        - Campus bicycle rental business.
+    - title: Database Lab Assistant; Algorithms and Data Structures Lab Assistant
+      institution: Universitas Brawijaya
+      year: 2011
+
+- title: Certifications
+  type: list
+  contents:
+    - "Microsoft Certified: Azure AI Fundamentals"
+    - Preparation Course for Azure AI Fundamentals (AI-900)
+    - Certified International Specialist in Data Engineering (CISDE)
+    - Recurrent Neural Networks for Language Modeling in Python
+    - Introduction to Deep Learning with Keras
+
+- title: Skills and Languages
+  type: map
+  contents:
+    - name: Top Skills
+      value: Retrieval-Augmented Generation (RAG), Large Language Models (LLM), Chatbot Development
+    - name: Languages
+      value: Indonesian (native), English (professional working)
 
 # - title: Open Source Projects
 #   type: time_table

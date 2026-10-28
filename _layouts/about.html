@@ -59,10 +59,18 @@ layout: default
             </div>
           {%- endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
+          <!-- Latest publications (synced from Google Scholar) -->
+          {% if page.latest_publications and site.data.scholar.publications -%}
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">latest publications</a></h2>
+            <ol class="pub-list latest-pubs">
+              {%- for p in site.data.scholar.publications limit: page.latest_publications %}
+              <li class="pub-item">
+                <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+                <div class="pub-authors">{{ p.authors }}</div>
+                <div class="pub-venue">{{ p.venue }} <span class="pub-cites">{{ p.year }}</span></div>
+              </li>
+              {%- endfor %}
+            </ol>
           {%- endif %}
 
           <!-- Selected papers -->
