@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="PediaExpert">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#2f5fd0"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/>
+<rect x="110" y="70" width="580" height="310" rx="18" fill="#fff" opacity=".96"/>
+<rect x="110" y="70" width="580" height="44" rx="18" fill="#e8eef9"/><rect x="110" y="96" width="580" height="18" fill="#e8eef9"/>
+<circle cx="136" cy="92" r="6" fill="#f87171"/><circle cx="156" cy="92" r="6" fill="#fbbf24"/><circle cx="176" cy="92" r="6" fill="#34d399"/>
+<rect x="140" y="140" width="330" height="48" rx="12" fill="#e6f4f1"/><text x="156" y="170" font-family="Inter,Arial" font-size="16" fill="#0f3d38">Child, 18 mo, 9.1 kg, 78 cm: nutrition plan?</text>
+<rect x="220" y="204" width="440" height="110" rx="12" fill="#eef2ff"/>
+<rect x="238" y="222" width="300" height="10" rx="5" fill="#a5b4fc"/><rect x="238" y="244" width="390" height="10" rx="5" fill="#c7d2fe"/><rect x="238" y="266" width="260" height="10" rx="5" fill="#c7d2fe"/>
+<rect x="238" y="288" width="120" height="18" rx="9" fill="#2f5fd0"/><text x="250" y="301" font-family="Inter,Arial" font-size="11" fill="#fff">Source: guideline</text>
+<rect x="140" y="332" width="520" height="30" rx="15" fill="#f1f5f9"/>
+</svg>
