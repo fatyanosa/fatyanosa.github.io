@@ -8,14 +8,25 @@
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
+        {%- if project.img contains '.svg' %}
+        <img src="{{ project.img | relative_url }}" alt="{{ project.title }} thumbnail" class="card-img-top">
+        {%- else %}
         {%- include figure.html
           path=project.img
           alt="project thumbnail" -%}
+        {%- endif %}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
+            {%- if project.website -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="{{ project.website }}" target="_blank" rel="noopener"><i class="fas fa-globe gh-icon"></i></a>
+              </div>
+            </div>
+            {%- endif %}
             {%- if project.github -%}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">

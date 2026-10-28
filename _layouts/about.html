@@ -46,6 +46,19 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
+          <!-- Main projects -->
+          {% if page.main_projects -%}
+            <h2><a href="{{ '/projects/' | relative_url }}" style="color: inherit;">main projects</a></h2>
+            <div class="projects">
+              <div class="grid">
+                {%- assign main_projects = site.projects | where: "category", "main" | sort: "importance" -%}
+                {%- for project in main_projects -%}
+                  {% include projects.html %}
+                {%- endfor %}
+              </div>
+            </div>
+          {%- endif %}
+
           <!-- Latest posts -->
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
