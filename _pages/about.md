@@ -26,6 +26,8 @@ During my Ph.D. journey, I had the opportunity to intern at Kata.ai as an AI Res
 
 Before diving into academia, I spent several years in the tech industry, from 2013 to 2018, working with companies like Mitrais and Anomadic as a Software Engineer and Quality Assurance Specialist. These experiences really shaped my perspective and continue to inform my teaching and research today.
 
+These days my work centers on applied AI. My research interests include natural language processing (text generation, machine translation, crowdsourcing) and meta-learning (hyperparameter optimization, neural architecture search, evolutionary algorithms). I am also the AI Engineer behind PediaExpert, a retrieval-augmented chatbot that helps nutritionists make evidence-based decisions for children, and I teach AI beyond campus as an AI Digital Talent Tutor for the Ministry of Communication and Information Technology and as a Data Science Trainer at AMD Academy.
+
 <!-- Welcome to my personal professional corner of the internet! 
 
 Here, I invite you to embark on a journey through my professional endeavors, achievements, and aspirations. 
