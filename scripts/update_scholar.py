@@ -149,7 +149,7 @@ def main():
     pubs.sort(key=lambda p: (-(p["year"] or 0), -p["citations"], p["title"]))
     data = {
         "user": USER,
-        "profile_url": "https://scholar.google.com/citations?user=" + USER,
+        "profile_url": "https://scholar.google.com/citations?user=" + USER + "&hl=en",
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "stats": stats,
         "cited": match_citations(pubs),
