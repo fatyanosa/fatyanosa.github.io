@@ -1,0 +1,181 @@
+/*******************************************************************************
+ * Site-specific design tweaks (loaded last).
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #2f5fd0;
+  --global-hover-color: #2f5fd0;
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0 6px 20px rgba(16, 24, 40, 0.06);
+  --soft-bg: #f5f7fb;
+}
+
+html[data-theme='dark'] {
+  --global-theme-color: #7aa2ff;
+  --global-hover-color: #7aa2ff;
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.3);
+  --soft-bg: #26272b;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+// Navbar
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--card-border);
+  backdrop-filter: saturate(180%) blur(10px);
+  background-color: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
+
+  .nav-link {
+    font-weight: 500;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+  }
+  .nav-item.active > .nav-link {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+// Home
+.post .post-header {
+  .post-title {
+    font-weight: 300;
+    font-size: 2.6rem;
+    .font-weight-bold { font-weight: 700 !important; }
+  }
+  .desc {
+    font-size: 1.1rem;
+    a { color: var(--global-text-color-light); }
+  }
+}
+
+.profile {
+  img {
+    border-radius: 16px !important;
+    box-shadow: var(--card-shadow) !important;
+  }
+}
+
+.post article h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--card-border);
+
+  a:hover { text-decoration: none; color: var(--global-theme-color); }
+}
+
+// Social icons
+.social .contact-icons {
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    margin: 0.2rem;
+    border-radius: 50%;
+    background: var(--soft-bg);
+    font-size: 1.35rem;
+    transition: transform 0.15s, background 0.15s, color 0.15s;
+
+    &:hover {
+      background: var(--global-theme-color);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Publications (Scholar-synced list)
+.scholar-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.5rem 0 1rem;
+
+  div {
+    flex: 1 1 110px;
+    padding: 0.9rem 1rem;
+    text-align: center;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: var(--soft-bg);
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+  span {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    line-height: 1.2;
+  }
+}
+
+.scholar-meta {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.scholar-pubs {
+  h2.year {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .pub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pub-item {
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid var(--card-border);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 10px;
+    transition: box-shadow 0.15s, transform 0.15s;
+
+    &:hover {
+      box-shadow: var(--card-shadow);
+      transform: translateY(-1px);
+    }
+  }
+
+  .pub-title {
+    font-weight: 600;
+    line-height: 1.4;
+    &:hover { text-decoration: none; }
+  }
+  .pub-authors { font-size: 0.9rem; color: var(--global-text-color-light); margin-top: 0.2rem; }
+  .pub-venue { font-size: 0.9rem; font-style: italic; }
+  .pub-cites {
+    font-style: normal;
+    font-size: 0.75rem;
+    margin-left: 0.4rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    background: var(--soft-bg);
+    color: var(--global-theme-color);
+  }
+}
+
+// Footer
+footer.fixed-bottom, footer.sticky-bottom {
+  border-top: 1px solid var(--card-border);
+}

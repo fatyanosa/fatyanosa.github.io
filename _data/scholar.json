@@ -1,0 +1,468 @@
+{
+ "user": "odb3L2UAAAAJ",
+ "profile_url": "https://scholar.google.com/citations?user=odb3L2UAAAAJ",
+ "updated": "2026-10-28",
+ "stats": {
+  "citations": 601,
+  "h_index": 13,
+  "i10_index": 15
+ },
+ "publications": [
+  {
+   "title": "A Systematic Comparison of MediaPipe Holistic and RTMPose Frameworks for Indonesia Sign Language Skeleton Extraction",
+   "authors": "SZR Akmal, N Afkaar, AR Kuntadi, IN Sari, TN Fatyanosa",
+   "venue": "2026 22nd IEEE International Colloquium on Signal Processing & Its …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:3s1wT3WcHBgC"
+  },
+  {
+   "title": "Data Augmentation and Hyperparameter Optimization for Indonesian Sign Language Gloss Translation Using IndoBART",
+   "authors": "NFAR Onge, TN Fatyanosa, IN Sari",
+   "venue": "2026 22nd IEEE International Colloquium on Signal Processing & Its …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:ZHo1McVdvXMC"
+  },
+  {
+   "title": "Data-Augmented Text to Gloss Translation for Indonesian Sign Language using Parameter-Efficient FLAN-T5",
+   "authors": "DA Raisaputri, TN Fatyanosa, IN Sari",
+   "venue": "2026 22nd IEEE International Colloquium on Signal Processing & Its …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:SeFeTyx0c_EC"
+  },
+  {
+   "title": "Design and implementation of a 360-degree panoramic wedding package booking system using user-centered-design",
+   "authors": "A Nadiansyah, SA Hakim, AHAM Siagian, TN Fatyanosa",
+   "venue": "International Journal of Information Technology 18 (1), 71-77",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:M3NEmzRMIkIC"
+  },
+  {
+   "title": "Optimizing Deep Neural Network Using Genetic Algorithm for Hypertension Risk Prediction on Mobile Apps",
+   "authors": "L Muflikhah, WK Wardhana, TN Fatyanosa, RS Perdana, H Ratnawati, ...",
+   "venue": "Array, 101105",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:rO6llkc54NcC"
+  },
+  {
+   "title": "Crowdsource, crawl, or generate? creating sea-vl, a multicultural vision-language dataset for southeast asia",
+   "authors": "S Cahyawijaya, H Lovenia, JRA Moniz, TH Wong, MR Farhansyah, ...",
+   "venue": "ACL 2025",
+   "year": 2025,
+   "citations": 21,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:HDshCWvjkbEC"
+  },
+  {
+   "title": "Modelling the growth performance and thermal environment of broiler chicken houses via different machine learning algorithms assisted by a customized Internet of Things",
+   "authors": "DN Adli, TN Fatyanosa, F AlHuda, MM Sholikin, S Sugiharto",
+   "venue": "Smart Agricultural Technology, 101421",
+   "year": 2025,
+   "citations": 13,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:k_IJM867U9cC"
+  },
+  {
+   "title": "Retrieval-Augmented Generation for Indonesian Criminal Law Information Using the LLaMA Model",
+   "authors": "AZ Pratama, A Marinta, B Triyudanto, S Muhamad, TN Fatyanosa",
+   "venue": "Innovative Informatics and Artificial Intelligence Research 1 (1), 35-41",
+   "year": 2025,
+   "citations": 8,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:R3hNpaxXUhUC"
+  },
+  {
+   "title": "A Comparative Analysis of the Impact of Data Preprocessing and Fine-Tuning Methods on Bert's Performance in Text Classification",
+   "authors": "RD Purnomo, TN Fatyanosa, M Data",
+   "venue": "2025 7th International Conference on Natural Language Processing (ICNLP …",
+   "year": 2025,
+   "citations": 7,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:iH-uZ7U-co4C"
+  },
+  {
+   "title": "Anak baik: A low-cost approach to curate Indonesian ethical and unethical instructions",
+   "authors": "SA Hakim, RS Perdana, TN Fatyanosa",
+   "venue": "Proceedings of the Second Workshop in South East Asian Language Processing …",
+   "year": 2025,
+   "citations": 5,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:hFOr9nPyWt4C"
+  },
+  {
+   "title": "Feature selection for hypertension risk prediction using XGBoost on single nucleotide polymorphism data",
+   "authors": "L Muflikhah, TN Fatyanosa, N Widodo, RS Perdana, H Ratnawati",
+   "venue": "Healthcare Informatics Research 31 (1), 16-22",
+   "year": 2025,
+   "citations": 5,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:mB3voiENLucC"
+  },
+  {
+   "title": "Klasifikasi Sentimen Lintas Domain pada Komentar Media Sosial Menggunakan IndoBERT dengan Fine-Tuning dan Data Augmentation",
+   "authors": "N Marchelo, TN Fatyanosa, RS Perdana",
+   "venue": "Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer 9 (12)",
+   "year": 2025,
+   "citations": 2,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:GnPB-g6toBAC"
+  },
+  {
+   "title": "Analisis Perbandingan Model Machine Learning Tree-Based dan Non-Tree-Based untuk Tugas Klasifikasi",
+   "authors": "F Hilmi, K Taqiyassar, NRP Pratama, SC Kusuma, HR Nurwachid, ...",
+   "venue": "Jurnal Teknologi Informasi dan Ilmu Komputer 12 (4), 875-884",
+   "year": 2025,
+   "citations": 1,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:isC4tDSrTZIC"
+  },
+  {
+   "title": "UB_Tel-U at SemEval-2025 Task 11: Emotions Without Borders-A Unified Framework for Multilingual Classification Using Augmentation and Ensemble",
+   "authors": "TN Fatyanosa, PP Adikara, RP Erfitra, MRA Dikna, SD Budiwati",
+   "venue": "Proceedings of the 19th International Workshop on Semantic Evaluation …",
+   "year": 2025,
+   "citations": 1,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:RHpTSmoSYBkC"
+  },
+  {
+   "title": "A Comparative Study: Can Deep Learning Outperform Tree-Based Models in Tabular Data Classification?",
+   "authors": "TN Fatyanosa, F Hilmi, K Taqiyassar, NRP Pratama, SC Kusuma, ...",
+   "venue": "Journal of Information Technology and Computer Science 10 (1), 86-97",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:yD5IFk8b50cC"
+  },
+  {
+   "title": "Analisis Perbandingan Kinerja Fine-Tuning Varian Pretrained BERT untuk Deteksi Intrusi Berbasis Host pada Dataset ADFA-LD",
+   "authors": "SZR Akmal, TN Fatyanosa, M Data",
+   "venue": "Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer 9 (12)",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:BqipwSGYUEgC"
+  },
+  {
+   "title": "Comparative Analysis of Machine Learning Algorithms for Optimal Decision-Making in Data-Driven Applications",
+   "authors": "TN Fatyanosa, GIA Brata, JA Reansyah, HT Athaya, MH Adam, AF Aranda",
+   "venue": "Journal of Information Technology and Computer Science 10 (1), 73-85",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:a0OBvERweLwC"
+  },
+  {
+   "title": "Fine-Tuning Deep Convolutional Generative Adversarial Networks (DCGAN) for Synthetic Retinal Fundus Image Generation",
+   "authors": "MR Azhari, TN Fatyanosa, C Dewi",
+   "venue": "2025 IEEE 11th Information Technology International Seminar (ITIS), 150-155",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:NMxIlDl6LWMC"
+  },
+  {
+   "title": "Heart Disease Prediction System Employing Machine Learning",
+   "authors": "R Nopiardi, RD Saputra, NF Apriani, AHAM Siagian, S Al Hakim, ...",
+   "venue": "Journal of Information Technology and Computer Science 10 (2), 188-199",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:bFI3QPDXJZMC"
+  },
+  {
+   "title": "Leveraging Stacked Vessel Segment and Channels of Fundus Image for Eye Disease Detection using Hybrid U-Net-Residual Convolutional",
+   "authors": "C Dewi, N Yudistira, D Izzuddin, NW Tama, TN Fatyanosa",
+   "venue": "Journal of Information Technology and Computer Science 10 (2), 211-220",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:f2IySw72cVMC"
+  },
+  {
+   "title": "Pengembangan Alat Bantu Investigasi Serangan Siber Berdasarkan Log Server Web Menggunakan Algoritma K-Means",
+   "authors": "AF Saladin, M Data, TN Fatyanosa",
+   "venue": "Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer 9 (12)",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:O3NaXMp0MMsC"
+  },
+  {
+   "title": "Pengembangan Sistem Analisis Serangan Siber pada Log Server dengan Algoritma BERT dan Deep Embedded Clustering",
+   "authors": "MIA Wardana, M Data, TN Fatyanosa",
+   "venue": "Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer 9 (12)",
+   "year": 2025,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:YFjsv_pBGBYC"
+  },
+  {
+   "title": "Meta-learning for vessel time series data imputation method recommendation",
+   "authors": "TN Fatyanosa, NA Firdausanti, PHN Prayoga, M Kuriu, M Aritsugi, ...",
+   "venue": "Expert Systems with Applications 251 (1)",
+   "year": 2024,
+   "citations": 15,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:mVmsd5A6BfQC"
+  },
+  {
+   "title": "Detection of AI-generated images from various generators using gated expert convolutional neural network",
+   "authors": "RAF Saskoro, N Yudistira, TN Fatyanosa",
+   "venue": "IEEE Access 12, 147772-147783",
+   "year": 2024,
+   "citations": 14,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:7PzlFSSx8tAC"
+  },
+  {
+   "title": "Variational Mode Decomposition and Linear Embeddings are What You Need For Time-Series Forecasting",
+   "authors": "HRK Putra, N Yudistira, TN Fatyanosa",
+   "venue": "arXiv preprint arXiv:2408.16122",
+   "year": 2024,
+   "citations": 13,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:QIV2ME_5wuYC"
+  },
+  {
+   "title": "A hybrid approach with brkga and data mining for the early/tardy scheduling problem",
+   "authors": "I Mendonça, TN Fatyanosa, M Aritsugi, PHG Silva",
+   "venue": "2024 IEEE Congress on Evolutionary Computation (CEC), 1-8",
+   "year": 2024,
+   "citations": 1,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:9ZlFYXVOiuMC"
+  },
+  {
+   "title": "Classification of unexposed potsherd cavities by using deep learning",
+   "authors": "I Mendonça, M Miyaura, TN Fatyanosa, D Yamaguchi, H Sakai, H Obata, ...",
+   "venue": "Journal of Archaeological Science: Reports 49, 104003",
+   "year": 2023,
+   "citations": 8,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:KlAtU1dfN6UC"
+  },
+  {
+   "title": "Conducting vessel data imputation method selection based on dataset characteristics",
+   "authors": "TN Fatyanosa, NA Firdausanti, LFJ Soto, IM Santos, PHN Prayoga, ...",
+   "venue": "IOP Conference Series: Earth and Environmental Science 1198 (1), 012017",
+   "year": 2023,
+   "citations": 7,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:Zph67rFs4hoC"
+  },
+  {
+   "title": "Hybrid feature selection framework for building resource efficient intrusion detection systems model in the Internet of Things",
+   "authors": "TN Fatyanosa, M Data",
+   "venue": "Proceedings of the 8th International Conference on Sustainable Information …",
+   "year": 2023,
+   "citations": 3,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:M3ejUd6NZC8C"
+  },
+  {
+   "title": "ImputAnom: Anomaly detection framework using imputation methods for univariate time series",
+   "authors": "TN Fatyanosa, M Data, NA Firdausanti, PHN Prayoga, I Mendonça, ...",
+   "venue": "International Conference on Information Integration and Web Intelligence, 56-61",
+   "year": 2023,
+   "citations": 2,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:_kc_bZDykSQC"
+  },
+  {
+   "title": "ImputAnom: Anomaly Detection Framework Using Imputation Methods for Univariate Time Series",
+   "authors": "BN Data, AM Firdausanti",
+   "venue": "Information Integration and Web Intelligence: 25th International Conference …",
+   "year": 2023,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:M05iB0D1s5AC"
+  },
+  {
+   "title": "NusaCrowd: Open source initiative for Indonesian NLP resources",
+   "authors": "S Cahyawijaya, H Lovenia, AF Aji, GI Winata, B Wilie, R Mahendra, ...",
+   "venue": "ACL 2023",
+   "year": 2022,
+   "citations": 218,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:4TOpqqG69KYC"
+  },
+  {
+   "title": "Nusacrowd: A call for open and reproducible nlp research in indonesian languages",
+   "authors": "S Cahyawijaya, AF Aji, H Lovenia, GI Winata, B Wilie, R Mahendra, F Koto, ...",
+   "venue": "arXiv preprint arXiv:2207.10524",
+   "year": 2022,
+   "citations": 14,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:Wp0gIr-vW9MC"
+  },
+  {
+   "title": "Two-stage sampling: A framework for imbalanced classification with overlapped classes",
+   "authors": "NA Firdausanti, TN Fatyanosa, M Data, I Mendonça, M Aritsugi",
+   "venue": "2022 IEEE International Conference on Big Data (Big Data), 271-280",
+   "year": 2022,
+   "citations": 8,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:kNdYIx-mwKoC"
+  },
+  {
+   "title": "To optimize, or not to optimize, that is the question: TelU-KU models for WMT21 Large-Scale Multilingual Machine Translation",
+   "authors": "SD Budiwati, TN Fatyanosa, M Data, DR Wijaya, PA Telnoni, AA Suryani, ...",
+   "venue": "Proceedings of the Sixth Conference on Machine Translation, 387-397",
+   "year": 2021,
+   "citations": 27,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:UebtZRa9Y70C"
+  },
+  {
+   "title": "An automatic convolutional neural network optimization using a diversity-guided genetic algorithm",
+   "authors": "TN Fatyanosa, M Aritsugi",
+   "venue": "IEEE Access 9, 91410-91426",
+   "year": 2021,
+   "citations": 24,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:Se3iqnhoufwC"
+  },
+  {
+   "title": "Bert goes brrr: a venture towards the lesser error in classifying medical self-reporters on twitter",
+   "authors": "AF Aji, MN Nityasya, HA Wibowo, RE Prasojo, T Fatyanosa",
+   "venue": "Proceedings of the sixth social media mining for health (# SMM4H) workshop …",
+   "year": 2021,
+   "citations": 24,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:roLk4NBRz8UC"
+  },
+  {
+   "title": "ParaCotta: Synthetic Multilingual Paraphrase Corpora from the Most Diverse Translation Sample Pair",
+   "authors": "AF Aji, TN Fatyanosa, RE Prasojo, P Arthur, S Fitriany, S Qonitah, N Zulfa, ...",
+   "venue": "Proceedings of the 35th Pacific Asia Conference on Language, Information and …",
+   "year": 2021,
+   "citations": 19,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:8k81kl-MbHgC"
+  },
+  {
+   "title": "Machine Learning Optimization using Evolutionary Algorithm for Text Classification",
+   "authors": "F Tirana Noor",
+   "venue": "熊本大学",
+   "year": 2021,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:pqnbT2bcN3wC"
+  },
+  {
+   "title": "Phrase Table Combination Based on Symmetrization of Word Alignment for Low-Resource Languages",
+   "authors": "SD Budiwati, AHAM Siagian, TN Fatyanosa, M Aritsugi",
+   "venue": "Applied Sciences 11 (4), 1868",
+   "year": 2021,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:LkGwnXOMwfcC"
+  },
+  {
+   "title": "Effects of the number of hyperparameters on the performance of GA-CNN",
+   "authors": "TN Fatyanosa, M Aritsugi",
+   "venue": "2020 IEEE/ACM International Conference on Big Data Computing, Applications …",
+   "year": 2020,
+   "citations": 25,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:_FxGoFyzp5QC"
+  },
+  {
+   "title": "DBMS-KU at SemEval-2019 task 9: Exploring machine learning approaches in classifying text as suggestion or non-suggestion",
+   "authors": "TN Fatyanosa, M Aritsugi",
+   "venue": "Proceedings of the 13th International Workshop on Semantic Evaluation, 1185-1191",
+   "year": 2019,
+   "citations": 9,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:YsMSGLbcyi4C"
+  },
+  {
+   "title": "DBMS-KU interpolation for WMT19 news translation task",
+   "authors": "SD Budiwati, TN Fatyanosa, M Aritsugi",
+   "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2 …",
+   "year": 2019,
+   "citations": 5,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:W7OEmFMy1HYC"
+  },
+  {
+   "title": "Hybrid Modified Evolution Strategies and Linear Programming for Beef Cattle Feed Optimization.",
+   "authors": "TN Fatyanosa, WF Mahmudy",
+   "venue": "International Journal on Electrical Engineering & Informatics 11 (1), 223",
+   "year": 2019,
+   "citations": 4,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:Y0pCki6q_DkC"
+  },
+  {
+   "title": "Feature selection using variable length chromosome genetic algorithm for sentiment analysis",
+   "authors": "TN Fatyanosa, FA Bachtiar, M Data",
+   "venue": "2018 International Conference on Sustainable Information Engineering and …",
+   "year": 2018,
+   "citations": 13,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:IjCSPb-OGe4C"
+  },
+  {
+   "title": "A comparison of four types of evolution strategies for beef cattle feed optimization",
+   "authors": "TN Fatyanosa, WF Mahmudy, M Marjuki",
+   "venue": "Journal of Telecommunication, Electronic and Computer Engineering (JTEC) 10 …",
+   "year": 2018,
+   "citations": 8,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:2osOgNQ5qMEC"
+  },
+  {
+   "title": "Linear programming initialization method of evolution strategies for beef cattle feed optimization",
+   "authors": "TN Fatyanosa, F Utaminingrum, M Data",
+   "venue": "Journal of Telecommunication, Electronic and Computer Engineering (JTEC) 10 …",
+   "year": 2018,
+   "citations": 5,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:9yKSN-GCB0IC"
+  },
+  {
+   "title": "Classification method comparison on Indonesian social media sentiment analysis",
+   "authors": "TN Fatyanosa, FA Bachtiar",
+   "venue": "2017 International Conference on Sustainable Information Engineering and …",
+   "year": 2017,
+   "citations": 30,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:d1gkVwhDpl0C"
+  },
+  {
+   "title": "Extracting fuzzy rules and parameters using particle swarm optimization for rainfall forecasting",
+   "authors": "TN Fatyanosa, GAF Alfarisy, F Ramdani, WF Mahmudy, AA Soebroto",
+   "venue": "2017 International Conference on Advanced Computer Science and Information …",
+   "year": 2017,
+   "citations": 1,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:qjMakFHDy7sC"
+  },
+  {
+   "title": "Optimasi Komposisi Pakan Sapi Menggunakan Hibridisasi Modifikasi Evolution Strategies Dan Linear Programming",
+   "authors": "TN Fatyanosa",
+   "venue": "Universitas Brawijaya",
+   "year": 2017,
+   "citations": 1,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:0EnyYjriUFMC"
+  },
+  {
+   "title": "Hybrid genetic algorithm and simulated annealing for function optimization",
+   "authors": "TN Fatyanosa, AN Sihananto, GAF Alfarisy, MS Burhan, WF Mahmudy",
+   "venue": "Journal of Information Technology and Computer Science 1 (2), 82-97",
+   "year": 2016,
+   "citations": 30,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:u-x6o8ySG0sC"
+  },
+  {
+   "title": "Implementation of Real Coded Genetic Fuzzy System for Rainfall Forecasting",
+   "authors": "TN Fatyanosa, WF Mahmudy",
+   "venue": "The International Conference on Sustainable Information Engineering and …",
+   "year": 2016,
+   "citations": 6,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:u5HHmVD_uO8C"
+  },
+  {
+   "title": "Penerapan Metode Pincer Search Pada Data Nomor Unik Pendidik Dan Tenaga Kependidikan (NUPTK) Untuk Menemukan Aturan Sertifikasi Guru",
+   "authors": "TN Fatyanosa",
+   "venue": "Universitas Brawijaya",
+   "year": 2013,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:5nxA0vEk-isC"
+  },
+  {
+   "title": "Ichwanul Muslim Karo Karo, Tirana Noor Fatyanosa, Ziwei Ji, Pascale Fung, Graham Neubig, Timothy Baldwin, Sebastian Ruder, Herry Sujaini, Sakriani Sakti, and Ayu Purwarianti. 2022",
+   "authors": "S Cahyawijaya, H Lovenia, AF Aji, GI Winata, B Wilie, R Mahendra, ...",
+   "venue": "Nusacrowd: Open source initiative for indonesian nlp resources",
+   "year": null,
+   "citations": 4,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:g5m5HwL7SMYC"
+  },
+  {
+   "title": "Analisis Sentimen Layanan PT Kereta Api Indonesia pada Twitter Menggunakan Fine-Tuned IndoBERTweet",
+   "authors": "A Zaki, L Muflikhah, TN Fatyanosa",
+   "venue": "Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer e-ISSN 2548, 964X",
+   "year": null,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:2P1L_qKh6hAC"
+  },
+  {
+   "title": "Smart Agricultural Technology",
+   "authors": "DN Adli, TN Fatyanosa, F Al Huda, MM Sholikin, S Sugiharto",
+   "venue": "",
+   "year": null,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:blknAaTinKkC"
+  },
+  {
+   "title": "Smart Agricultural Technology",
+   "authors": "J Padhi, K Mishra, AK Ratha, SK Behera, PK Sethy, ...",
+   "venue": "",
+   "year": null,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:maZDTaKrznsC"
+  }
+ ]
+}
