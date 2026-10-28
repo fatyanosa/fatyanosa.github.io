@@ -238,3 +238,10 @@ footer.fixed-bottom, footer.sticky-bottom {
   overflow: hidden;
   border: 1px solid var(--card-border);
 }
+
+.stats-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0 0;
+  color: var(--global-text-color-light);
+}

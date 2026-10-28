@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Assistant Professor, Brawijaya University</a>
+subtitle: <a href='https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa' target='_blank' rel='noopener'>Assistant Professor, Universitas Brawijaya</a>
 
 profile:
   align: right

@@ -464,5 +464,12 @@
    "citations": 0,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:maZDTaKrznsC"
   }
- ]
+ ],
+ "scopus": {
+  "author_id": "57201530572",
+  "profile_url": "https://www.scopus.com/authid/detail.uri?authorId=57201530572",
+  "documents": 34,
+  "citations": 239,
+  "h_index": 8
+ }
 }

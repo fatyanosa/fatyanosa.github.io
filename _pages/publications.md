@@ -10,14 +10,24 @@ nav_order: 1
 <div class="publications scholar-pubs">
 
 {%- if sch and sch.publications.size > 0 %}
+  <h3 class="stats-heading"><i class="ai ai-google-scholar"></i> Google Scholar</h3>
   <div class="scholar-stats">
-    <div><span>{{ sch.stats.citations }}</span>citations</div>
-    <div><span>{{ sch.stats.h_index }}</span>h-index</div>
-    <div><span>{{ sch.stats.i10_index }}</span>i10-index</div>
     <div><span>{{ sch.publications.size }}</span>publications</div>
+    <div><span>{{ sch.stats.h_index }}</span>h-index</div>
+    <div><span>{{ sch.stats.citations }}</span>citations</div>
+    <div><span>{{ sch.stats.i10_index }}</span>i10-index</div>
   </div>
+  {%- if sch.scopus %}
+  <h3 class="stats-heading"><i class="ai ai-scopus"></i> Scopus</h3>
+  <div class="scholar-stats">
+    <div><span>{{ sch.scopus.documents }}</span>publications</div>
+    <div><span>{{ sch.scopus.h_index }}</span>h-index</div>
+    <div><span>{{ sch.scopus.citations }}</span>citations</div>
+  </div>
+  {%- endif %}
   <p class="scholar-meta">
-    <a href="{{ sch.profile_url }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> View Google Scholar profile</a>
+    <a href="{{ sch.profile_url }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar profile</a>
+    {%- if sch.scopus %} &middot; <a href="{{ sch.scopus.profile_url }}" target="_blank" rel="noopener"><i class="ai ai-scopus"></i> Scopus profile</a>{% endif %}
     &middot; last synced {{ sch.updated }}
   </p>
 
