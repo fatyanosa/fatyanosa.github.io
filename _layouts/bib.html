@@ -185,6 +185,12 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
+          {%- assign cited_count = site.data.scholar.cited[entry.key] -%}
+          {%- if cited_count != nil %}
+          <div class="badges">
+            <a class="scholar-cited" href="{{ site.data.scholar.profile_url }}" target="_blank" rel="noopener" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by {{ cited_count }}</a>
+          </div>
+          {%- endif %}
           {% if site.badges %}
           <div class="badges">
             {%- if site.badges.altmetric_badge %}
@@ -201,17 +207,6 @@
                 data-isbn="{{ entry.isbn }}"
               {% endif %}
               ></span>
-            {%- endif %}
-            {%- if site.badges.dimensions_badge %}
-              <span class="__dimensions_badge_embed__"
-              {% if entry.doi %}
-                data-doi="{{ entry.doi }}"
-              {% else if entry.pmid %}
-                data-pmid="{{ entry.pmid }}"
-              {% else %}
-                data-id="{{ entry.dimensions }}"
-              {% endif %}
-              data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
           </div>
           {%- endif %}

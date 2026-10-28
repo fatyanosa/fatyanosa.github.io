@@ -246,3 +246,15 @@ footer.fixed-bottom, footer.sticky-bottom {
   margin: 1rem 0 0;
   color: var(--global-text-color-light);
 }
+
+.publications .scholar-cited {
+  display: inline-block;
+  margin: 0.2rem 0;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: var(--soft-bg);
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  &:hover { text-decoration: none; opacity: 0.85; }
+}
