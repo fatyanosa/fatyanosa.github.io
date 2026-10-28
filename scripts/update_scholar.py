@@ -60,6 +60,51 @@ def parse_rows(page):
     return pubs
 
 
+def norm(t):
+    return re.sub(r"[^a-z0-9]", "", t.lower())
+
+
+def bib_titles(path):
+    """Return {bibkey: title} from a BibTeX file (brace/quote aware, no extra deps)."""
+    text = path.read_text(encoding="utf-8")
+    out = {}
+    for m in re.finditer(r"@\w+\s*\{\s*([^,\s]+)\s*,", text):
+        end = re.search(r"\n\s*@\w+\s*\{", text[m.end():])
+        body = text[m.end(): m.end() + end.start()] if end else text[m.end():]
+        t = re.search(r"(?<![a-z])title\s*=\s*", body, re.I)
+        if not t:
+            continue
+        i, opener = t.end(), body[t.end():t.end() + 1]
+        if opener == "{":
+            depth = 0
+            for j in range(i, len(body)):
+                depth += (body[j] == "{") - (body[j] == "}")
+                if depth == 0:
+                    out[m.group(1)] = body[i + 1:j]
+                    break
+        elif opener == '"':
+            j = body.find('"', i + 1)
+            out[m.group(1)] = body[i + 1:j]
+    return out
+
+
+def match_citations(pubs):
+    """Map each bib entry key to its Scholar citation count by title."""
+    import difflib
+    bib = OUT.parent.parent / "_bibliography" / "papers.bib"
+    scholar = {norm(p["title"]): p["citations"] for p in pubs}
+    cited = {}
+    for key, title in bib_titles(bib).items():
+        n = norm(title)
+        if n in scholar:
+            cited[key] = scholar[n]
+        else:
+            close = difflib.get_close_matches(n, list(scholar), n=1, cutoff=0.9)
+            if close:
+                cited[key] = scholar[close[0]]
+    return cited
+
+
 def parse_stats(page):
     cells = re.findall(r'<td class="gsc_rsb_std">(\d+)</td>', page)
     if len(cells) >= 6:
@@ -107,6 +152,7 @@ def main():
         "profile_url": "https://scholar.google.com/citations?user=" + USER,
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "stats": stats,
+        "cited": match_citations(pubs),
         "publications": pubs,
     }
     scopus = fetch_scopus()
