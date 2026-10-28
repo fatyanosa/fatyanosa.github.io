@@ -1177,17 +1177,20 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--global-text-color-light);
 }
 
-.scholar-pubs h2.year {
+.scholar-pubs h2.year,
+.latest-pubs h2.year {
   font-size: 1.4rem;
   font-weight: 600;
   margin: 2rem 0 0.75rem;
 }
-.scholar-pubs .pub-list {
+.scholar-pubs .pub-list,
+.latest-pubs .pub-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.scholar-pubs .pub-item {
+.scholar-pubs .pub-item,
+.latest-pubs .pub-item {
   padding: 0.9rem 1.1rem;
   margin-bottom: 0.6rem;
   border: 1px solid var(--card-border);
@@ -1195,27 +1198,33 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   transition: box-shadow 0.15s, transform 0.15s;
 }
-.scholar-pubs .pub-item:hover {
+.scholar-pubs .pub-item:hover,
+.latest-pubs .pub-item:hover {
   box-shadow: var(--card-shadow);
   transform: translateY(-1px);
 }
-.scholar-pubs .pub-title {
+.scholar-pubs .pub-title,
+.latest-pubs .pub-title {
   font-weight: 600;
   line-height: 1.4;
 }
-.scholar-pubs .pub-title:hover {
+.scholar-pubs .pub-title:hover,
+.latest-pubs .pub-title:hover {
   text-decoration: none;
 }
-.scholar-pubs .pub-authors {
+.scholar-pubs .pub-authors,
+.latest-pubs .pub-authors {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
   margin-top: 0.2rem;
 }
-.scholar-pubs .pub-venue {
+.scholar-pubs .pub-venue,
+.latest-pubs .pub-venue {
   font-size: 0.9rem;
   font-style: italic;
 }
-.scholar-pubs .pub-cites {
+.scholar-pubs .pub-cites,
+.latest-pubs .pub-cites {
   font-style: normal;
   font-size: 0.75rem;
   margin-left: 0.4rem;
