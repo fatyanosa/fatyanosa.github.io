@@ -17,6 +17,8 @@ import requests
 USER = sys.argv[1] if len(sys.argv) > 1 else "odb3L2UAAAAJ"
 OUT = Path(__file__).resolve().parent.parent / "_data" / "scholar.json"
 PAGE = 100
+SCOPUS_ID = "57201530572"
+SINTA_URL = "https://sinta.kemdiktisaintek.go.id/authors/profile/6869872"
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
 
@@ -65,6 +67,26 @@ def parse_stats(page):
     return {}
 
 
+def fetch_scopus():
+    """Scopus metrics as mirrored on the public SINTA profile (Scopus itself needs a login)."""
+    try:
+        r = requests.get(SINTA_URL, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", r.text)))
+        m = re.search(r"Article (\d+) (\d+) (\d+) Citation (\d+) (\d+) (\d+) Cited Document \d+ \d+ \d+ H-Index (\d+) (\d+) (\d+)", text)
+        if m:
+            return {
+                "author_id": SCOPUS_ID,
+                "profile_url": "https://www.scopus.com/authid/detail.uri?authorId=" + SCOPUS_ID,
+                "documents": int(m.group(1)),
+                "citations": int(m.group(4)),
+                "h_index": int(m.group(7)),
+            }
+    except requests.RequestException as e:
+        print("SINTA fetch failed:", e)
+    return None
+
+
 def main():
     pubs, stats, start = [], {}, 0
     while True:
@@ -87,6 +109,11 @@ def main():
         "stats": stats,
         "publications": pubs,
     }
+    scopus = fetch_scopus()
+    if scopus is None and OUT.exists():  # keep the previous values if SINTA is unavailable
+        scopus = json.loads(OUT.read_text(encoding="utf-8")).get("scopus")
+    if scopus:
+        data["scopus"] = scopus
     OUT.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print("Wrote %d publications to %s" % (len(pubs), OUT))
 
