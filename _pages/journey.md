@@ -1,8 +1,8 @@
 ---
 layout: page
-title: activity
-permalink: /activity/
-description: A timeline of my activities, talks, certifications, awards and more.
+title: journey
+permalink: /journey/
+description: A timeline of my journey, including activities, talks, certifications, awards and more.
 nav: true
 nav_order: 3
 ---
