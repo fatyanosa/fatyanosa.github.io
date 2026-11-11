@@ -90,14 +90,38 @@
       institution: Universitas Brawijaya
       year: 2011
 
+- title: Editorial Service
+  type: time_table
+  contents:
+    - title: Editorial Board Member
+      institution: <a href="https://wirajurnal.uniwara.ac.id/index.php/JoICIS" target="_blank" rel="noopener">Journal of Intelligent Computing and Information Systems (JoICIS)</a>, Universitas PGRI Wiranegara
+      year: 2026-Present
+      description:
+        - Peer-reviewed, open-access journal on computer science and information technology, published twice a year (June and December).
+    - title: Manuscript Editor
+      institution: <a href="https://jiskomsia.asia.ac.id/index.php/jiskomsia" target="_blank" rel="noopener">Jurnal Sistem Komputer ASIA (JISKOMSIA)</a>, Institut Teknologi dan Bisnis Asia Malang (ASIA Malang)
+      year: 2025-Present
+      description:
+        - Journal covering computer science, informatics engineering, computer systems, and information systems, published twice a year.
+    - title: Section Editor
+      institution: <a href="https://journal.itk.ac.id/index.php/IIAIR" target="_blank" rel="noopener">Innovative Informatics and Artificial Intelligence Research (IIAIR)</a>, Institut Teknologi Kalimantan (ITK)
+      year: 2024-Present
+      description:
+        - International peer-reviewed, open-access journal on informatics and artificial intelligence, including machine learning, software development, networking, blockchain, and applications such as healthcare, agricultural, and energy informatics.
+    - title: Section Editor
+      institution: <a href="https://nero.trunojoyo.ac.id/index.php/nero" target="_blank" rel="noopener">Networking Engineering Research Operation (NERO)</a>, Department of Informatics Engineering, Universitas Trunojoyo Madura
+      year: 2023
+      description:
+        - Scientific journal covering networking, informatics and computer science, software engineering, multimedia, and intelligent systems, published twice a year (July-December 2023).
+
 - title: Certifications
   type: list
   contents:
+    - Certified International Specialist in Data Engineering (CISDE), PASAS Institute (valid Jan 2026 – Jan 2029)
+    - Certified Data Scientist, BNSP (valid Dec 2025 – Dec 2028)
     - "Microsoft Certified: Azure AI Fundamentals"
     - Preparation Course for Azure AI Fundamentals (AI-900)
-    - Certified International Specialist in Data Engineering (CISDE)
-    - Recurrent Neural Networks for Language Modeling in Python
-    - Introduction to Deep Learning with Keras
+    - MATLAB Machine Learning Onramp
 
 - title: Skills and Languages
   type: map
@@ -117,8 +141,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items: 
+        - Best Publication Contributor (Top 5) in 2025, Faculty of Computer Science (FILKOM), Universitas Brawijaya
     - year: 2025
       items: 
+        - Top 10 Finalist at the BudayaGO! Grand Final (Professional Category), Ministry of Culture of the Republic of Indonesia
+        - Best Paper at Information Technology International Seminar (ITIS)
         - Highest Scorer of AI-900 Certification for Faculty Master Trainer at Universitas Brawijaya
     - year: 2024
       items: 
