@@ -1,7 +1,7 @@
 # Activity timeline (newest first is automatic; order here doesn't matter).
 # Put photos in assets/img/activity/ and list them under `photos`.
 #
-# Fields: date (required, YYYY-MM-DD), type, title, place, description (markdown),
+# Fields: date (required, YYYY-MM-DD), date_text (optional display, e.g. "3–6 Nov 2026"), type, title, place, description (markdown),
 #         photos (list), link, link_text
 
 - date: 2026-10-30
@@ -17,3 +17,32 @@
   photos:
     - /assets/img/activity/bestari-saintek-2026-1.png
     - /assets/img/activity/bestari-saintek-2026-2.png
+
+- date: 2026-11-06
+  date_text: 3–6 Nov 2026
+  type: Certification
+  title: Competency Assessor Training and Certification (BNSP)
+  place: Laboratorium TIK, Universitas Brawijaya, Malang
+  description: >-
+    Completed the Competency Assessor Training (*Pelatihan Asesor Kompetensi*, Workplace Assessor)
+    organized by LSP Entrepreneur Digital Indonesia in collaboration with the Indonesian
+    Professional Certification Authority (BNSP), 3–6 November 2026. The training covered four
+    competency units (48 hours in total), including planning assessment activities and processes,
+    conducting assessments, and contributing to assessment validation.
+  photos:
+    - /assets/img/activity/bnsp-assessor-2026-group.jpg
+    - /assets/img/activity/bnsp-assessor-2026-certificate.jpg
+    - /assets/img/activity/bnsp-assessor-2026-units.jpg
+
+- date: 2026-10-31
+  type: Certification
+  title: Competency Assessment Internalization Program (BNSP)
+  place: Universitas Brawijaya, Malang
+  description: >-
+    Passed the Competency Assessment Internalization Program
+    (*Program Internalisasi Asesmen Kompetensi*) organized by LSP Entrepreneur Digital Indonesia,
+    an 8-hour program on competency standards and certification schemes, the assessor code of
+    ethics, and practice mapping job groups.
+  photos:
+    - /assets/img/activity/bnsp-internalization-2026-certificate.jpg
+    - /assets/img/activity/bnsp-internalization-2026-materials.jpg

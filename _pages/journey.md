@@ -32,7 +32,7 @@ nav_order: 3
       <div class="timeline-dot"></div>
       <div class="timeline-card">
         <div class="timeline-meta">
-          <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %Y" }}</time>
+          <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{% if item.date_text %}{{ item.date_text }}{% else %}{{ item.date | date: "%-d %b %Y" }}{% endif %}</time>
           {% if item.type %}<span class="timeline-badge">{{ item.type }}</span>{% endif %}
         </div>
         <h3 class="timeline-title">{{ item.title }}</h3>
