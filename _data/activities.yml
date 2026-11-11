@@ -1,0 +1,14 @@
+# Activity timeline (newest first is automatic; order here doesn't matter).
+# Put photos in assets/img/activity/ and list them under `photos`.
+#
+# Fields: date (required, YYYY-MM-DD), type, title, place, description (markdown),
+#         photos (list), link, link_text
+
+- date: 2026-10-30
+  type: Exhibition
+  title: Exhibition at Living Lab Summit, Bestari Saintek
+  place: Universitas Brawijaya
+  description: Contributed to Bestari Saintek and exhibited our work at the Living Lab Summit.
+  photos:
+    - /assets/img/activity/bestari-saintek-2026-1.png
+    - /assets/img/activity/bestari-saintek-2026-2.png
