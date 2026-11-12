@@ -113,3 +113,24 @@
     - /assets/img/activity/kyoto-2026-1.png
   link: https://filkom.ub.ac.id/2026/10/09/perkuat-jejaring-riset-internasional-filkom-ub-jajaki-kolaborasi-dengan-kyoto-university/
   link_text: Read on FILKOM UB
+
+- date: 2026-01-25
+  type: Certification
+  title: Certified International Specialist in Data Engineering (CISDE)
+  place: PASAS Institute, Singapore
+  description: >-
+    Awarded the Certified International Specialist in Data Engineering (CISDE) certification
+    by PASAS Institute, Singapore. Valid until 30 January 2029.
+  photos:
+    - /assets/img/activity/cisde-2026-certificate.jpg
+
+- date: 2025-12-11
+  date_text: 8–11 Dec 2025
+  type: Certification
+  title: Training and Certification, Certified International Specialist in Data Engineering (CISDE)
+  place: SUHU Training and Consulting (PT Kata Suhu Kita), Malang
+  description: >-
+    Completed the four-day training and certification preparation course for the Certified
+    International Specialist in Data Engineering (CISDE) in Malang, 8–11 December 2025.
+  photos:
+    - /assets/img/activity/cisde-training-2025-certificate.jpg
