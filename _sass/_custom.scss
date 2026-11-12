@@ -561,7 +561,7 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
   }
   .timeline-dot { background: var(--cool-2); z-index: 1; transition: transform 0.2s; }
   .timeline-item:hover .timeline-dot { transform: scale(1.3); }
-  .timeline-item:first-of-type .timeline-dot { animation: pulse 2s infinite; }
+  .timeline-group:first-child .timeline-item:first-of-type .timeline-dot { animation: pulse 2s infinite; }
   .timeline-year { color: var(--cool-2); position: relative; z-index: 2; }
 }
 @keyframes pulse {
@@ -681,3 +681,61 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
   }
 }
 @keyframes lightbox-in { from { opacity: 0; } to { opacity: 1; } }
+
+// Journey: years open and close
+.timeline .timeline-year {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: calc(100% + 1.75rem);
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--cool-2);
+
+  .year-label { background: var(--global-bg-color); padding-right: 0.25rem; position: relative; }
+  .year-count {
+    min-width: 1.6rem;
+    padding: 0 0.5rem;
+    border-radius: 999px;
+    background: var(--soft-bg);
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .year-chevron {
+    margin-left: auto;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease;
+  }
+  &:hover { color: var(--global-theme-color); }
+  &:focus-visible { outline: 2px solid var(--cool-2); outline-offset: 2px; border-radius: 8px; }
+}
+.timeline-group.expanded .year-chevron { transform: rotate(45deg); }
+
+.timeline-more {
+  display: inline-flex;
+  align-items: center;
+  margin: -0.35rem 0 1rem;
+  padding: 0.3rem 1rem;
+  border: 1px dashed var(--card-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-theme-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  &:hover { background: var(--soft-bg); border-color: var(--global-theme-color); }
+  &:focus-visible { outline: 2px solid var(--cool-2); outline-offset: 2px; }
+}
