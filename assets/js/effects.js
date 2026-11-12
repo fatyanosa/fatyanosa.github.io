@@ -154,5 +154,15 @@
     requestAnimationFrame(frame);
   }
 
-  ready(function () { reveal(); countUp(); typed(); timeline(); hero(); });
+  // Block "Save image as" and dragging for Journey photos (deters casual copying only)
+  function protectImages() {
+    function isProtected(el) {
+      return el && el.tagName === 'IMG' &&
+        (el.closest('.timeline-photos') || el.classList.contains('medium-zoom-image'));
+    }
+    document.addEventListener('contextmenu', function (e) { if (isProtected(e.target)) e.preventDefault(); });
+    document.addEventListener('dragstart', function (e) { if (isProtected(e.target)) e.preventDefault(); });
+  }
+
+  ready(function () { protectImages(); reveal(); countUp(); typed(); timeline(); hero(); });
 })();

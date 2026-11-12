@@ -41,9 +41,7 @@ nav_order: 3
         {% if item.photos %}
         <div class="timeline-photos">
           {% for photo in item.photos %}
-          <a href="{{ photo | relative_url }}" target="_blank" rel="noopener">
-            <img src="{{ photo | relative_url }}" alt="{{ item.title | escape }}" loading="lazy">
-          </a>
+          <img src="{{ photo | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" draggable="false" data-zoomable>
           {% endfor %}
         </div>
         {% endif %}

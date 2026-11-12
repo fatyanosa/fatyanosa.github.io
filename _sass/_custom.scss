@@ -628,3 +628,12 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+// Make casual saving of photos harder (screenshots are still possible)
+.timeline-photos img,
+.medium-zoom-image {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+.timeline-photos img { cursor: zoom-in; }

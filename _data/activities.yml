@@ -31,8 +31,8 @@
     conducting assessments, and contributing to assessment validation.
   photos:
     - /assets/img/activity/bnsp-assessor-2026-group.jpg
-    - /assets/img/activity/bnsp-assessor-2026-certificate-mosaic.jpg
-    - /assets/img/activity/bnsp-assessor-2026-units-mosaic.jpg
+    - /assets/img/activity/certs/bnsp-assessor-2026-certificate.jpg
+    - /assets/img/activity/certs/bnsp-assessor-2026-units.jpg
 
 - date: 2026-10-31
   type: Certification
@@ -44,8 +44,8 @@
     an 8-hour program on competency standards and certification schemes, the assessor code of
     ethics, and practice mapping job groups.
   photos:
-    - /assets/img/activity/bnsp-internalization-2026-certificate-mosaic.jpg
-    - /assets/img/activity/bnsp-internalization-2026-materials-mosaic.jpg
+    - /assets/img/activity/certs/bnsp-internalization-2026-certificate.jpg
+    - /assets/img/activity/certs/bnsp-internalization-2026-materials.jpg
 
 - date: 2026-03-16
   type: Evaluator
@@ -58,8 +58,8 @@
     perspective, and finalized the evaluation rubric and final scores (4 hours in total).
   photos:
     - /assets/img/activity/lks-ai-2026-group.jpg
-    - /assets/img/activity/lks-ai-2026-certificate.jpg
-    - /assets/img/activity/lks-ai-2026-activities.jpg
+    - /assets/img/activity/certs/lks-ai-2026-certificate.jpg
+    - /assets/img/activity/certs/lks-ai-2026-activities.jpg
   link: https://www.instagram.com/reel/DV-sDxdk3DM/
   link_text: Watch on Instagram
 
@@ -122,7 +122,7 @@
     Awarded the Certified International Specialist in Data Engineering (CISDE) certification
     by PASAS Institute, Singapore. Valid until 30 January 2029.
   photos:
-    - /assets/img/activity/cisde-2026-certificate.jpg
+    - /assets/img/activity/certs/cisde-2026-certificate.jpg
 
 - date: 2025-12-11
   date_text: 8–11 Dec 2025
@@ -133,4 +133,4 @@
     Completed the four-day training and certification preparation course for the Certified
     International Specialist in Data Engineering (CISDE) in Malang, 8–11 December 2025.
   photos:
-    - /assets/img/activity/cisde-training-2025-certificate.jpg
+    - /assets/img/activity/certs/cisde-training-2025-certificate.jpg
