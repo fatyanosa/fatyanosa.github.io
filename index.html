@@ -121,11 +121,13 @@
       
         <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+        <header class="post-header hero">
+          <canvas class="hero-canvas" aria-hidden="true"></canvas>
           <h1 class="post-title">
            <span class="font-weight-bold">Tirana</span> Noor Fatyanosa
           </h1>
           <p class="desc"><a href="https://filkom.ub.ac.id/profile/dosen/tirana.noor.fatyanosa" target="_blank" rel="noopener">Assistant Professor, Universitas Brawijaya</a></p>
+          <p class="typed-line" data-words='["Assistant Professor at Universitas Brawijaya","NLP &amp; Meta-learning Researcher","RAG &amp; LLM Engineer","Educator &amp; Trainer in AI"]'><span class="typed-text">Assistant Professor at Universitas Brawijaya</span><span class="typed-caret"></span></p>
         </header>
 
         <article>
@@ -192,6 +194,36 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- News -->
           
 
+          <!-- Research areas -->
+          <h2>research areas</h2>
+            <div class="research-grid">
+              <a class="research-card" href="/publications/">
+                <i class="fas fa-language"></i>
+                <h4>Natural Language Processing</h4>
+                <p>Text generation, machine translation, and crowdsourced language resources.</p>
+              </a>
+              <a class="research-card" href="/publications/">
+                <i class="fas fa-project-diagram"></i>
+                <h4>Meta-learning</h4>
+                <p>Hyperparameter optimization, neural architecture search, and evolutionary algorithms.</p>
+              </a>
+              <a class="research-card" href="/projects/pediaexpert/">
+                <i class="fas fa-robot"></i>
+                <h4>RAG and LLM</h4>
+                <p>Retrieval-augmented chatbots grounded in evidence, such as PediaExpert.</p>
+              </a>
+              <a class="research-card" href="/projects/">
+                <i class="fas fa-heartbeat"></i>
+                <h4>Healthcare AI</h4>
+                <p>Nutrition decision support and medical image models for early detection.</p>
+              </a>
+              <a class="research-card" href="/publications/">
+                <i class="fas fa-sign-language"></i>
+                <h4>Sign Language and Accessibility</h4>
+                <p>Computer vision for Indonesian Sign Language and inclusive technology.</p>
+              </a>
+            </div>
+
           <!-- Main projects -->
           <h2><a href="/projects/" style="color: inherit;">main projects</a></h2>
             <div class="projects">
@@ -205,6 +237,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="card-body">
           <h2 class="card-title text-lowercase">PediaExpert</h2>
           <p class="card-text">A RAG-powered clinical chatbot that helps nutritionists make evidence-based nutrition-therapy decisions for children.</p>
+          <div class="project-tags">
+<span class="project-tag">LLM</span><span class="project-tag">RAG</span><span class="project-tag">healthcare</span>
+</div>
           <div class="row ml-1 mr-1 p-0">
 <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Website">
@@ -466,5 +501,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   }
 </script>
 
+    <script defer src="/assets/js/effects.js"></script>
   </body>
 </html>
