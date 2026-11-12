@@ -150,11 +150,15 @@
 <div class="timeline">
   
   
-    
-    
-      
-      <div class="timeline-year" data-year="2026"><span>2026</span></div>
-    
+  
+  <section class="timeline-group" data-year="2026">
+    <button type="button" class="timeline-year" aria-expanded="false">
+      <span class="year-label">2026</span>
+      <span class="year-count">13</span>
+      <span class="year-chevron" aria-hidden="true"></span>
+    </button>
+    <div class="timeline-group-body">
+  
     <article class="timeline-item" data-type="certification">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -185,8 +189,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="certification">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -214,8 +216,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="exhibition">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -243,8 +243,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="workshop">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -275,8 +273,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="workshop">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -304,8 +300,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="visit">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -330,8 +324,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="visit">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -369,8 +361,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="committee">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -395,8 +385,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="committee">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -424,8 +412,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="lecture">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -450,8 +436,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="certification">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -482,8 +466,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="evaluator">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -514,8 +496,6 @@
       </div>
     </article>
   
-    
-    
     <article class="timeline-item" data-type="certification">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -540,11 +520,21 @@
       </div>
     </article>
   
+    </div>
     
+    <button type="button" class="timeline-more" aria-expanded="false">Show 12 more</button>
     
-      
-      <div class="timeline-year" data-year="2025"><span>2025</span></div>
-    
+  </section>
+  
+  
+  <section class="timeline-group" data-year="2025">
+    <button type="button" class="timeline-year" aria-expanded="false">
+      <span class="year-label">2025</span>
+      <span class="year-count">1</span>
+      <span class="year-chevron" aria-hidden="true"></span>
+    </button>
+    <div class="timeline-group-body">
+  
     <article class="timeline-item" data-type="certification">
       <div class="timeline-dot"></div>
       <div class="timeline-card">
@@ -569,23 +559,65 @@
       </div>
     </article>
   
+    </div>
+    
+  </section>
+  
 </div>
 
 <script>
-  document.querySelectorAll('.activity-filters button').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var f = btn.dataset.filter;
-      document.querySelectorAll('.activity-filters button').forEach(function (b) { b.classList.toggle('active', b === btn); });
-      document.querySelectorAll('.timeline-item').forEach(function (el) {
-        el.style.display = (f === 'all' || el.dataset.type === f) ? '' : 'none';
+  (function () {
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.timeline-group'));
+    var filter = 'all';
+
+    // Each year shows its newest activity; the rest sit under a "Show more" button.
+    function layout(g) {
+      var matches = Array.prototype.filter.call(g.querySelectorAll('.timeline-item'), function (el) {
+        return filter === 'all' || el.dataset.type === filter;
       });
-      document.querySelectorAll('.timeline-year').forEach(function (y) {
-        var n = y.nextElementSibling, show = false;
-        while (n && !n.classList.contains('timeline-year')) { if (n.style.display !== 'none') show = true; n = n.nextElementSibling; }
-        y.style.display = show ? '' : 'none';
+      var expanded = g.classList.contains('expanded');
+      g.querySelectorAll('.timeline-item').forEach(function (el) {
+        var i = matches.indexOf(el);
+        el.style.display = (i === 0 || (i > 0 && expanded)) ? '' : 'none';
+      });
+      g.style.display = matches.length ? '' : 'none';
+      g.querySelector('.year-count').textContent = matches.length;
+      var more = g.querySelector('.timeline-more');
+      if (more) {
+        var extra = matches.length - 1;
+        more.style.display = extra > 0 ? '' : 'none';
+        more.textContent = expanded ? 'Show less' : 'Show ' + extra + ' more';
+        more.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      }
+      g.querySelector('.timeline-year').setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    }
+    function setExpanded(g, on) { g.classList.toggle('expanded', on); layout(g); }
+    function refresh() {
+      window.dispatchEvent(new Event('resize'));   // re-measure the timeline line
+    }
+
+    groups.forEach(function (g) {
+      function flip() { setExpanded(g, !g.classList.contains('expanded')); refresh(); }
+      g.querySelector('.timeline-year').addEventListener('click', flip);
+      var more = g.querySelector('.timeline-more');
+      if (more) more.addEventListener('click', flip);
+    });
+
+    document.querySelectorAll('.activity-filters button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.activity-filters button').forEach(function (b) { b.classList.toggle('active', b === btn); });
+        filter = btn.dataset.filter;
+        groups.forEach(layout);
+        refresh();
       });
     });
-  });
+
+    // A link such as /journey/#2025 opens that year fully
+    var hash = location.hash.replace('#', '');
+    groups.forEach(function (g) { if (g.dataset.year === hash) g.classList.add('expanded'); });
+    groups.forEach(layout);
+    refresh();
+  })();
 </script>
 
 
