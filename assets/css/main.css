@@ -1814,5 +1814,15 @@ html[data-theme=dark] body::before, html[data-theme=dark] body::after {
     transform: none;
   }
 }
+.timeline-photos img,
+.medium-zoom-image {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.timeline-photos img {
+  cursor: zoom-in;
+}
 
 /*# sourceMappingURL=main.css.map */
