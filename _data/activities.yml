@@ -212,5 +212,10 @@
   photos:
     - /assets/img/activity/photos/guest-lecture-llm-2026-group.jpg
     - /assets/img/activity/certs/guest-lecture-llm-2026-certificate.jpg
-  link: https://youtu.be/hcikr59t8Lk
-  link_text: Watch on YouTube
+  links:
+    - text: Read on FILKOM UB
+      url: https://filkom.ub.ac.id/2026/08/20/filkom-ub-gelar-kuliah-tamu-bersama-praktisi-amazon-alexa-bahas-implementasi-llm-di-industri-teknologi/
+    - text: Read in Radar Malang
+      url: https://radarmalang.jawapos.com/pendidikan/2608200040/filkom-ub-hadirkan-praktisi-amazon-alexa-bahas-implementasi-llm-di-industri-teknologi
+    - text: Watch on YouTube
+      url: https://youtu.be/hcikr59t8Lk
