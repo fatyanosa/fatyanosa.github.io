@@ -158,11 +158,49 @@
   function protectImages() {
     function isProtected(el) {
       return el && el.tagName === 'IMG' &&
-        (el.closest('.timeline-photos') || el.classList.contains('medium-zoom-image'));
+        (el.closest('.timeline-photos') || el.closest('.lightbox'));
     }
     document.addEventListener('contextmenu', function (e) { if (isProtected(e.target)) e.preventDefault(); });
     document.addEventListener('dragstart', function (e) { if (isProtected(e.target)) e.preventDefault(); });
   }
 
-  ready(function () { protectImages(); reveal(); countUp(); typed(); timeline(); hero(); });
+  // Click a Journey photo to see the whole picture at its own proportions
+  function lightbox() {
+    var thumbs = Array.prototype.slice.call(document.querySelectorAll('.timeline-photos img'));
+    if (!thumbs.length) return;
+    var box = null, group = [], idx = 0;
+
+    function show(i) {
+      idx = (i + group.length) % group.length;
+      box.querySelector('img').src = group[idx].src;
+      box.querySelector('img').alt = group[idx].alt;
+    }
+    function close() {
+      if (!box) return;
+      document.body.removeChild(box);
+      box = null;
+      document.removeEventListener('keydown', onKey);
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') close();
+      else if (e.key === 'ArrowRight' && group.length > 1) show(idx + 1);
+      else if (e.key === 'ArrowLeft' && group.length > 1) show(idx - 1);
+    }
+    thumbs.forEach(function (img) {
+      img.addEventListener('click', function () {
+        group = Array.prototype.slice.call(img.parentElement.querySelectorAll('img'));
+        idx = group.indexOf(img);
+        box = document.createElement('div');
+        box.className = 'lightbox';
+        box.setAttribute('role', 'dialog');
+        box.innerHTML = '<img draggable="false" alt="">';
+        box.addEventListener('click', close);
+        document.body.appendChild(box);
+        show(idx);
+        document.addEventListener('keydown', onKey);
+      });
+    });
+  }
+
+  ready(function () { protectImages(); lightbox(); reveal(); countUp(); typed(); timeline(); hero(); });
 })();
