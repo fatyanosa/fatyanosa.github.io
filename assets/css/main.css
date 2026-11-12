@@ -1486,6 +1486,11 @@ footer.fixed-bottom, footer.sticky-bottom {
   font-size: 0.9rem;
   font-weight: 500;
 }
+.timeline .timeline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
 
 /*******************************************************************************
  * Cool colors and motion
