@@ -41,7 +41,8 @@ nav_order: 3
         {% if item.photos %}
         <div class="timeline-photos">
           {% for photo in item.photos %}
-          <img src="{{ photo | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" draggable="false">
+          {% assign thumb = photo | replace: '/activity/photos/', '/activity/thumbs/' | replace: '/activity/certs/', '/activity/thumbs/' %}
+          <img src="{{ thumb | relative_url }}" data-full="{{ photo | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" draggable="false">
           {% endfor %}
         </div>
         {% endif %}
