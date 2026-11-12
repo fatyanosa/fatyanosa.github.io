@@ -77,7 +77,9 @@ nav_order: 3
       var matches = Array.prototype.filter.call(g.querySelectorAll('.timeline-item'), function (el) {
         return filter === 'all' || el.dataset.type === filter;
       });
-      var expanded = g.classList.contains('expanded');
+      // A type filter lists every match; only "All" folds the extras under the button.
+      var filtered = filter !== 'all';
+      var expanded = filtered || g.classList.contains('expanded');
       g.querySelectorAll('.timeline-item').forEach(function (el) {
         var i = matches.indexOf(el);
         el.style.display = (i === 0 || (i > 0 && expanded)) ? '' : 'none';
@@ -87,7 +89,7 @@ nav_order: 3
       var more = g.querySelector('.timeline-more');
       if (more) {
         var extra = matches.length - 1;
-        more.style.display = extra > 0 ? '' : 'none';
+        more.style.display = (extra > 0 && !filtered) ? '' : 'none';
         more.textContent = expanded ? 'Show less' : 'Show ' + extra + ' more';
         more.setAttribute('aria-expanded', expanded ? 'true' : 'false');
       }
