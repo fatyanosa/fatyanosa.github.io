@@ -172,7 +172,7 @@
 
     function show(i) {
       idx = (i + group.length) % group.length;
-      box.querySelector('img').src = group[idx].src;
+      box.querySelector('img').src = group[idx].getAttribute('data-full') || group[idx].src;
       box.querySelector('img').alt = group[idx].alt;
     }
     function close() {
