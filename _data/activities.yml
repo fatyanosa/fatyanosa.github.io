@@ -134,3 +134,37 @@
     International Specialist in Data Engineering (CISDE) in Malang, 8–11 December 2025.
   photos:
     - /assets/img/activity/certs/cisde-training-2025-certificate.jpg
+
+- date: 2026-10-22
+  date_text: 21–22 Oct 2026
+  type: Workshop
+  title: Artificial Intelligence Digital Talent Tutor, Workshop 2 AITF 2026 (UB Batch 2)
+  place: Auditorium Algoritma, FILKOM, Universitas Brawijaya, Malang
+  description: >-
+    Served as an Artificial Intelligence Digital Talent Tutor for students at Workshop 2 of the
+    Artificial Intelligence Talent Factory (AITF) program, Batch 2, held by the Ministry of
+    Communication and Digital Affairs (Komdigi) with Universitas Brawijaya. The students' task
+    (Team 1, **Teacher Character & Speech Cloning**) was to fine-tune a model on a teacher's audio
+    recordings to clone the teacher's voice, and to fine-tune on virtual teacher character assets
+    to produce 2D/3D motion that matches the voice-over.
+  photos:
+    - /assets/img/activity/photos/aitf-2026-1.jpg
+    - /assets/img/activity/photos/aitf-2026-2.jpg
+    - /assets/img/activity/photos/aitf-2026-3.jpg
+  link: https://filkom.ub.ac.id/2026/10/26/komdigi-tekankan-serapan-talenta-digital-pada-workshop-2-aitf-di-filkom-ub/
+  link_text: Read on FILKOM UB
+
+- date: 2026-10-06
+  date_text: 5–6 Oct 2026
+  type: Workshop
+  title: Artificial Intelligence Digital Talent Tutor, Workshop 1 AITF 2026 (UB Batch 2)
+  place: Auditorium Algoritma, FILKOM, Universitas Brawijaya, Malang
+  description: >-
+    Served as an Artificial Intelligence Digital Talent Tutor for students at Workshop 1 of the
+    Artificial Intelligence Talent Factory (AITF) program, Batch 2, held by the Ministry of
+    Communication and Digital Affairs (Komdigi) with Universitas Brawijaya.
+  photos:
+    - /assets/img/activity/photos/aitf-2026-5.jpg
+    - /assets/img/activity/photos/aitf-2026-4.jpg
+  link: https://prasetya.ub.ac.id/filkom-ub-perkuat-talenta-ai-melalui-aitf-2026/
+  link_text: Read on UB Prasetya
