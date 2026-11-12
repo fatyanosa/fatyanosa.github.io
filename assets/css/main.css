@@ -1482,6 +1482,16 @@ footer.fixed-bottom, footer.sticky-bottom {
   object-fit: cover;
   border-radius: 8px;
 }
+.timeline .timeline-photos.wide {
+  display: flex;
+  flex-wrap: wrap;
+}
+.timeline .timeline-photos.wide img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
+}
 .timeline .timeline-link {
   font-size: 0.9rem;
   font-weight: 500;
