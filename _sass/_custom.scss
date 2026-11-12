@@ -400,6 +400,19 @@ footer.fixed-bottom, footer.sticky-bottom {
       object-fit: cover;
       border-radius: 8px;
     }
+
+    // Screenshots: show the whole picture in a wider thumbnail
+    &.wide {
+      display: flex;
+      flex-wrap: wrap;
+
+      img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 180px;
+      }
+    }
   }
 
   .timeline-link { font-size: 0.9rem; font-weight: 500; }

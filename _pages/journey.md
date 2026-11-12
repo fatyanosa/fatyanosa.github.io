@@ -39,7 +39,7 @@ nav_order: 3
         {% if item.place %}<div class="timeline-place">{{ item.place }}</div>{% endif %}
         {% if item.description %}<p>{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
         {% if item.photos %}
-        <div class="timeline-photos">
+        <div class="timeline-photos{% if item.thumbs_wide %} wide{% endif %}">
           {% for photo in item.photos %}
           {% assign thumb = photo | replace: '/activity/photos/', '/activity/thumbs/' | replace: '/activity/certs/', '/activity/thumbs/' %}
           <img src="{{ thumb | relative_url }}" data-full="{{ photo | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" draggable="false">

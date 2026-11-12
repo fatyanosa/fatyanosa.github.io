@@ -73,6 +73,7 @@
     The talk explored whether machines truly understand or only simulate understanding
     (the Turing Test, the Chinese Room argument, and the symbol grounding problem),
     as well as explainability and bias in AI models.
+  thumbs_wide: true   # show the whole photo as a wider thumbnail
   photos:
     - /assets/img/activity/photos/guest-lecture-2026-group.jpg
   link: https://radarmalang.jawapos.com/pendidikan/2609100060/filkom-ub-gelar-kuliah-tamu-bahas-pemahaman-mesin-kupas-explainability-dan-bias-dalam-ai
@@ -168,3 +169,48 @@
     - /assets/img/activity/photos/aitf-2026-4.jpg
   link: https://prasetya.ub.ac.id/filkom-ub-perkuat-talenta-ai-melalui-aitf-2026/
   link_text: Read on UB Prasetya
+
+- date: 2026-08-19
+  type: Lecture
+  title: Online Lecture, FACE IT 2026, Deep Learning and AI for Images Track
+  place: Online
+  description: >-
+    Delivered an online lecture on **Data, Uncertainty & ML** (representing features and labels, and
+    comparing supervised and unsupervised learning) in the Deep Learning and AI for Images track of the
+    2026 FILKOM UB Academic and Cultural Exchange on Information Technology (FACE IT).
+  thumbs_wide: true   # show the whole screenshot as a wider thumbnail
+  photos:
+    - /assets/img/activity/photos/face-it-2026-1.jpg
+  link: https://filkom.ub.ac.id/face-it/
+  link_text: FACE IT 2026
+
+- date: 2026-05-19
+  date_text: 13–19 May 2026
+  type: Certification
+  title: International Training and Certification, Gemini Faculty
+  place: Google for Education
+  description: >-
+    Completed the Gemini Faculty training and earned the **Gemini Certified Faculty** qualification from
+    Google for Education (issued 19 May 2026, valid through 19 May 2029). Completed the
+    *Generative AI for Educators with Gemini* course (13 May 2026) and the *AI Google untuk Pendidikan
+    Tinggi* (Google AI for Higher Education) course (13 May 2026).
+  photos:
+    - /assets/img/activity/certs/gemini-faculty-2026-certificate.jpg
+    - /assets/img/activity/certs/gemini-faculty-2026-genai-course.jpg
+    - /assets/img/activity/certs/gemini-faculty-2026-ai-higher-ed.jpg
+
+- date: 2026-08-19
+  type: Committee
+  title: 'Event Section Coordinator, Guest Lecture "Building Real-World AI Systems: Implementasi Large Language Models di Industri Teknologi"'
+  place: Mini Teater Heuristik, Gedung A lt. 2, FILKOM, Universitas Brawijaya
+  description: >-
+    Served as the event section coordinator (*Koordinator Sie Acara*) of the organizing committee for
+    a FILKOM UB guest lecture on implementing large language models in the tech industry, by Reza
+    Ferrydiansyah (Senior Software Development Engineer, Smart Home AI & Platform Engineering, Amazon Alexa),
+    19 August 2026, 08.00–12.00 WIB.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/guest-lecture-llm-2026-group.jpg
+    - /assets/img/activity/certs/guest-lecture-llm-2026-certificate.jpg
+  link: https://youtu.be/hcikr59t8Lk
+  link_text: Watch on YouTube
