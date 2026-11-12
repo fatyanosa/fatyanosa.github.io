@@ -637,3 +637,34 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
   user-select: none;
 }
 .timeline-photos img { cursor: zoom-in; }
+
+// Enlarged photo view must sit above the timeline year labels and dots
+.medium-zoom-overlay { z-index: 1000; }
+.medium-zoom-image--opened { z-index: 1001; }
+
+// Enlarged photo view (shows the whole photo at its own proportions)
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(10, 12, 20, 0.88);
+  cursor: zoom-out;
+  animation: lightbox-in 0.2s ease;
+
+  img {
+    max-width: 94vw;
+    max-height: 92vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+}
+@keyframes lightbox-in { from { opacity: 0; } to { opacity: 1; } }

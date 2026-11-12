@@ -15,8 +15,8 @@
     under the Faculty of Education and Psychology (Fakultas Ilmu Pendidikan dan Psikologi, FIPP),
     on building an **Immersive Room for understanding disasters for Early Childhood**.
   photos:
-    - /assets/img/activity/bestari-saintek-2026-1.png
-    - /assets/img/activity/bestari-saintek-2026-2.png
+    - /assets/img/activity/photos/bestari-saintek-2026-1.jpg
+    - /assets/img/activity/photos/bestari-saintek-2026-2.jpg
 
 - date: 2026-11-06
   date_text: 3–6 Nov 2026
@@ -30,7 +30,7 @@
     competency units (48 hours in total), including planning assessment activities and processes,
     conducting assessments, and contributing to assessment validation.
   photos:
-    - /assets/img/activity/bnsp-assessor-2026-group.jpg
+    - /assets/img/activity/photos/bnsp-assessor-2026-group.jpg
     - /assets/img/activity/certs/bnsp-assessor-2026-certificate.jpg
     - /assets/img/activity/certs/bnsp-assessor-2026-units.jpg
 
@@ -57,7 +57,7 @@
     testing and logic flow), held a critical Q&A and feedback session from a practitioner's
     perspective, and finalized the evaluation rubric and final scores (4 hours in total).
   photos:
-    - /assets/img/activity/lks-ai-2026-group.jpg
+    - /assets/img/activity/photos/lks-ai-2026-group.jpg
     - /assets/img/activity/certs/lks-ai-2026-certificate.jpg
     - /assets/img/activity/certs/lks-ai-2026-activities.jpg
   link: https://www.instagram.com/reel/DV-sDxdk3DM/
@@ -74,7 +74,7 @@
     (the Turing Test, the Chinese Room argument, and the symbol grounding problem),
     as well as explainability and bias in AI models.
   photos:
-    - /assets/img/activity/guest-lecture-2026-group.png
+    - /assets/img/activity/photos/guest-lecture-2026-group.jpg
   link: https://radarmalang.jawapos.com/pendidikan/2609100060/filkom-ub-gelar-kuliah-tamu-bahas-pemahaman-mesin-kupas-explainability-dan-bias-dalam-ai
   link_text: Read in Radar Malang
 
@@ -90,10 +90,10 @@
     Prof. Tomoya Nakamura (Graduate School of Engineering Science), and Prof. Fumio Okura (SANKEN),
     where each side presented their research and discussed collaboration, including a student exchange scheme.
   photos:
-    - /assets/img/activity/osaka-2026-1.jpg
-    - /assets/img/activity/osaka-2026-2.jpg
-    - /assets/img/activity/osaka-2026-3.jpg
-    - /assets/img/activity/osaka-2026-4.jpg
+    - /assets/img/activity/photos/osaka-2026-1.jpg
+    - /assets/img/activity/photos/osaka-2026-2.jpg
+    - /assets/img/activity/photos/osaka-2026-3.jpg
+    - /assets/img/activity/photos/osaka-2026-4.jpg
   links:
     - text: Read on FILKOM UB
       url: https://filkom.ub.ac.id/2026/09/24/memperkuat-kolaborasi-internasional-dosen-filkom-ub-laksanakan-kunjungan-dokar-ke-the-university-of-osaka/
@@ -110,7 +110,7 @@
     from NusaCrowd (NusaNLU, NusaNLG, and NusaASR) and ParaCotta, a paraphrase corpus method
     published at PACLIC 2021. The discussion supports FILKOM UB's research on Visual Scene-aware Machine Translation.
   photos:
-    - /assets/img/activity/kyoto-2026-1.png
+    - /assets/img/activity/photos/kyoto-2026-1.jpg
   link: https://filkom.ub.ac.id/2026/10/09/perkuat-jejaring-riset-internasional-filkom-ub-jajaki-kolaborasi-dengan-kyoto-university/
   link_text: Read on FILKOM UB
 
