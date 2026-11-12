@@ -77,3 +77,39 @@
     - /assets/img/activity/guest-lecture-2026-group.png
   link: https://radarmalang.jawapos.com/pendidikan/2609100060/filkom-ub-gelar-kuliah-tamu-bahas-pemahaman-mesin-kupas-explainability-dan-bias-dalam-ai
   link_text: Read in Radar Malang
+
+- date: 2026-09-18
+  date_text: 14–18 Sep 2026
+  type: Visit
+  title: Research Visit to The University of Osaka (DOKAR Program)
+  place: SANKEN and other campuses, The University of Osaka, Japan
+  description: >-
+    Visited The University of Osaka together with Dr. Eng. Irawati Nurmala Sari through the
+    Program Dosen Berkarya (DOKAR) of Universitas Brawijaya, as a follow-up to the Implementation
+    Agreement with Nakashima Laboratory, SANKEN. Met Prof. Yuta Nakashima (SANKEN),
+    Prof. Tomoya Nakamura (Graduate School of Engineering Science), and Prof. Fumio Okura (SANKEN),
+    where each side presented their research and discussed collaboration, including a student exchange scheme.
+  photos:
+    - /assets/img/activity/osaka-2026-1.jpg
+    - /assets/img/activity/osaka-2026-2.jpg
+    - /assets/img/activity/osaka-2026-3.jpg
+    - /assets/img/activity/osaka-2026-4.jpg
+  links:
+    - text: Read on FILKOM UB
+      url: https://filkom.ub.ac.id/2026/09/24/memperkuat-kolaborasi-internasional-dosen-filkom-ub-laksanakan-kunjungan-dokar-ke-the-university-of-osaka/
+    - text: Read in Radar Malang
+      url: https://radarmalang.jawapos.com/pendidikan/2609240040/memperkuat-kolaborasi-internasional-dosen-filkom-ub-laksanakan-kunjungan-dokar-ke-the-university-of-osaka
+
+- date: 2026-10-05
+  type: Visit
+  title: Online Research Discussion with Prof. Chenhui Chu, Kyoto University
+  place: Online meeting
+  description: >-
+    Joined an online meeting between FILKOM UB and Prof. Chenhui Chu of Kyoto University to discuss
+    research developments and opportunities for collaboration. Presented the three benchmarks built
+    from NusaCrowd (NusaNLU, NusaNLG, and NusaASR) and ParaCotta, a paraphrase corpus method
+    published at PACLIC 2021. The discussion supports FILKOM UB's research on Visual Scene-aware Machine Translation.
+  photos:
+    - /assets/img/activity/kyoto-2026-1.png
+  link: https://filkom.ub.ac.id/2026/10/09/perkuat-jejaring-riset-internasional-filkom-ub-jajaki-kolaborasi-dengan-kyoto-university/
+  link_text: Read on FILKOM UB

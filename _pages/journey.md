@@ -48,6 +48,11 @@ nav_order: 3
         </div>
         {% endif %}
         {% if item.link %}<a class="timeline-link" href="{{ item.link }}" target="_blank" rel="noopener">{{ item.link_text | default: "View" }} &rarr;</a>{% endif %}
+        {% if item.links %}
+        <div class="timeline-links">
+          {% for l in item.links %}<a class="timeline-link" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }} &rarr;</a>{% endfor %}
+        </div>
+        {% endif %}
       </div>
     </article>
   {% endfor %}
