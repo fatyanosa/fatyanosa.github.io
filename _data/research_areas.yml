@@ -1,0 +1,24 @@
+- title: Natural Language Processing
+  icon: fas fa-language
+  description: Text generation, machine translation, and crowdsourced language resources.
+  link: /publications/
+
+- title: Meta-learning
+  icon: fas fa-project-diagram
+  description: Hyperparameter optimization, neural architecture search, and evolutionary algorithms.
+  link: /publications/
+
+- title: RAG and LLM
+  icon: fas fa-robot
+  description: Retrieval-augmented chatbots grounded in evidence, such as PediaExpert.
+  link: /projects/pediaexpert/
+
+- title: Healthcare AI
+  icon: fas fa-heartbeat
+  description: Nutrition decision support and medical image models for early detection.
+  link: /projects/
+
+- title: Sign Language and Accessibility
+  icon: fas fa-sign-language
+  description: Computer vision for Indonesian Sign Language and inclusive technology.
+  link: /publications/

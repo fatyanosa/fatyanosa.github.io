@@ -14,6 +14,8 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
+research_areas: true  # shows the research-area cards from _data/research_areas.yml
+typed_roles: ["Assistant Professor at Universitas Brawijaya", "NLP & Meta-learning Researcher", "RAG & LLM Engineer", "Educator & Trainer in AI"]
 main_projects: true  # includes the cards of projects in the 'main' category
 latest_publications: 5  # number of newest publications (from Google Scholar) to show
 selected_papers: true # includes a list of papers marked as "selected={true}"
