@@ -62,3 +62,18 @@
     - /assets/img/activity/lks-ai-2026-activities.jpg
   link: https://www.instagram.com/reel/DV-sDxdk3DM/
   link_text: Watch on Instagram
+
+- date: 2026-09-08
+  type: Committee
+  title: Organizing Committee Chair, Guest Lecture "Does a Machine Understand? Explainability and Bias in AI"
+  place: Ruang 4.1, Gedung Kreativitas Mahasiswa (GKM), FILKOM, Universitas Brawijaya
+  description: >-
+    Chaired the organizing committee (*ketua panitia*) of a guest lecture at FILKOM UB featuring
+    Professor Nakashima Yuta of The University of Osaka, moderated by Mahendra Data, Ph.D.
+    The talk explored whether machines truly understand or only simulate understanding
+    (the Turing Test, the Chinese Room argument, and the symbol grounding problem),
+    as well as explainability and bias in AI models.
+  photos:
+    - /assets/img/activity/guest-lecture-2026-group.png
+  link: https://radarmalang.jawapos.com/pendidikan/2609100060/filkom-ub-gelar-kuliah-tamu-bahas-pemahaman-mesin-kupas-explainability-dan-bias-dalam-ai
+  link_text: Read in Radar Malang
