@@ -1972,4 +1972,8 @@ html[data-theme=dark] body::before, html[data-theme=dark] body::after {
   background: #ea580c;
 }
 
+.timeline-item[data-type=award] .timeline-badge {
+  background: #d97706;
+}
+
 /*# sourceMappingURL=main.css.map */
