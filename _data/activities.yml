@@ -250,3 +250,24 @@
   photos:
     - /assets/img/activity/photos/sentrin-2026-moderator.jpg
     - /assets/img/activity/photos/sentrin-2026-certificate-handover.jpg
+
+- date: 2025-12-05
+  date_text: 5–7 Dec 2025
+  type: Award
+  title: 'Joint Winner (Juara Bersama), Professional Category, BudayaGO! Digital Culture Innovation Competition 2025: SIGNESIA'
+  place: Ministry of Culture of the Republic of Indonesia, Jakarta
+  description: >-
+    Our team SIGNESIA (Irawati Nurmala Sari, Tirana Noor Fatyanosa, Dian Widyahapsari, Ardi Imawan,
+    Nanang Bustanul Fauzi) was named joint winner in the professional category of BudayaGO!, the Indonesian
+    digital culture innovation competition held by the Ministry of Culture. Of 627 registered teams, only
+    20 reached the final, 10 from the student category and 10 from the professional category, and
+    SIGNESIA was one of the 10 professional finalists.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/budayago-2025-team.jpg
+    - /assets/img/activity/certs/budayago-2025-certificate.jpg
+  links:
+    - text: Visit SIGNESIA app
+      url: https://signesia-app.vercel.app/#/home
+    - text: Read on detikNews
+      url: https://news.detik.com/berita/d-8249787/20-finalis-budaya-go-2025-pamerkan-inovasi-digital-kekayaan-budaya
