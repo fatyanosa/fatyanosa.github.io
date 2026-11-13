@@ -1950,4 +1950,26 @@ html[data-theme=dark] body::before, html[data-theme=dark] body::after {
   outline-offset: 2px;
 }
 
+.projects .grants-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--global-divider-color);
+}
+
+.projects h2.category {
+  color: var(--global-text-color);
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom-color: var(--card-border, var(--global-divider-color));
+}
+
+.timeline-item[data-type=graduation] .timeline-badge {
+  background: #db2777;
+}
+
+.timeline-item[data-type=moderator] .timeline-badge {
+  background: #ea580c;
+}
+
 /*# sourceMappingURL=main.css.map */
