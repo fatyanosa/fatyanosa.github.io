@@ -739,3 +739,21 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
   &:hover { background: var(--soft-bg); border-color: var(--global-theme-color); }
   &:focus-visible { outline: 2px solid var(--cool-2); outline-offset: 2px; }
 }
+
+// Grants card on the Projects page: static (no hover lift), themed like CV cards
+.projects .grants-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--global-divider-color);
+}
+
+// Projects page section headings were nearly invisible (divider color); use readable text color
+.projects h2.category {
+  color: var(--global-text-color);
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom-color: var(--card-border, var(--global-divider-color));
+}
+.timeline-item[data-type='graduation'] .timeline-badge { background: #db2777; }
+.timeline-item[data-type='moderator'] .timeline-badge { background: #ea580c; }

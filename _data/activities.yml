@@ -219,3 +219,34 @@
       url: https://radarmalang.jawapos.com/pendidikan/2608200040/filkom-ub-hadirkan-praktisi-amazon-alexa-bahas-implementasi-llm-di-industri-teknologi
     - text: Watch on YouTube
       url: https://youtu.be/hcikr59t8Lk
+
+- date: 2021-09-01
+  date_text: September 2021
+  type: Graduation
+  title: Doctor of Philosophy Graduation, Kumamoto University
+  place: Graduate School of Science and Technology, Kumamoto University, Japan
+  description: >-
+    Completed the doctorate program in the Department of Advanced Industrial Science and received
+    the degree of Doctor of Philosophy from Kumamoto University.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/graduation-2021-group.jpg
+    - /assets/img/activity/certs/graduation-2021-diploma.jpg
+
+- date: 2026-09-09
+  date_text: 9–10 Sep 2026
+  type: Moderator
+  title: Moderator, Keynote Speech "Agentic AI yang Tepercaya" by Dr. Eng. Ayu Purwarianti, SENTRIN 2026
+  place: Auditorium Algoritma (Gedung G lantai 2 FILKOM), Fakultas Ilmu Komputer, Universitas Brawijaya
+  description: >-
+    Moderated keynote speech at the Seminar Nasional Teknologi & Rekayasa Informasi (SENTRIN) 2026,
+    held 9–10 September 2026, 10.45–11.45 WIB, at Auditorium Algoritma, FILKOM UB. The keynote, *Agentic AI yang
+    Tepercaya* (Trustworthy Agentic AI), was delivered by Dr. Eng. Ayu Purwarianti, S.T., M.T., an academic
+    and researcher in natural language processing at Institut Teknologi Bandung, former Chair of the Indonesian
+    Association for Computational Linguistics (INACL) and of the IEEE Education Chapter Indonesia Section.
+    The talk covered how LLM-based agents can work autonomously, and the risks and AI governance needed to keep
+    them trustworthy.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/sentrin-2026-moderator.jpg
+    - /assets/img/activity/photos/sentrin-2026-certificate-handover.jpg
