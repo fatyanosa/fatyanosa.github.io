@@ -1980,4 +1980,28 @@ html[data-theme=dark] body::before, html[data-theme=dark] body::after {
   background: #7c3aed;
 }
 
+.pub-item.book-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.book-item .book-cover {
+  width: 96px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  flex: none;
+}
+
+.book-item .book-info {
+  min-width: 0;
+}
+
+@media (max-width: 480px) {
+  .book-item .book-cover {
+    width: 72px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
