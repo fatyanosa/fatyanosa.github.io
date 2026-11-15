@@ -451,3 +451,40 @@
   photos:
     - /assets/img/activity/photos/top-contributor-2025-title.jpg
     - /assets/img/activity/photos/top-contributor-2025-chart.jpg
+
+- date: 2025-06-15
+  date_text: 15 Jun 2025
+  type: Lecture
+  title: 'Plenary Speaker, Igniting Minds: The 1st ISUFST School of Graduate Studies International Research Colloquium'
+  place: Hasa-Hasa Theater, Iloilo State University of Fisheries Science and Technology (ISUFST), Iloilo, Philippines (hybrid)
+  description: >-
+    Invited plenary speaker at the 1st ISUFST School of Graduate Studies International Research Colloquium,
+    organized by the ISUFST School of Graduate Studies with its Research and Development and International
+    Affairs and Linkages offices. I joined online with the talk *Data, Dialogue, and Discovery: Reimagining the
+    Research Cycle in the AI Era*, alongside plenary speakers from ISUFST (Philippines), Krirk University
+    (Thailand) and Universitas Muhammadiyah Sumatera Utara (Indonesia).
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/isufst-2025-zoom.jpg
+    - /assets/img/activity/photos/isufst-2025-poster.jpg
+    - /assets/img/activity/certs/isufst-2025-plenary-certificate.jpg
+
+- date: 2025-07-18
+  date_text: 18 Jul 2025
+  type: Lecture
+  title: 'Speaker, Neural Talk: Connect, Inspire, Research, Intelligent Systems Laboratory, FILKOM UB'
+  place: Faculty of Computer Science (FILKOM), Universitas Brawijaya, Malang
+  description: >-
+    Invited speaker (*narasumber*) at Neural Talk: Connect, Inspire, Research, a three-day event (16–18 July
+    2025) organized by the Intelligent Systems Laboratory (Laboratorium Sistem Cerdas) of FILKOM UB, where
+    lecturers of the lab share their research and invite students to collaborate on real projects. My session
+    was on Friday, 18 July 2025.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/neural-talk-2025-talk.jpg
+    - /assets/img/activity/certs/neural-talk-2025-certificate.jpg
+  links:
+    - text: Watch on YouTube
+      url: https://www.youtube.com/watch?v=uzWcj5P4i9E
+    - text: View on Instagram
+      url: https://www.instagram.com/p/DMCwmxhxtYT/
