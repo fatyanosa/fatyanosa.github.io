@@ -373,3 +373,29 @@
   links:
     - text: Read the paper
       url: https://dl.acm.org/doi/10.1145/3626641.3626923
+
+- date: 2025-10-08
+  date_text: 8–9 Oct 2025
+  type: Award
+  title: 'Reviewer and Best Paper Award, ITIS 2025 (11th Information Technology International Seminar)'
+  place: Mataram, Indonesia
+  description: >-
+    Served as a reviewer at the 11th Information Technology International Seminar (ITIS 2025). Our paper
+    "Fine-Tuning Deep Convolutional Generative Adversarial Networks (DCGAN) for Synthetic Retinal Fundus Image
+    Generation", with Muhammad Rizqi Azhari and Candra Dewi, received a best paper award at the seminar.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/itis-2025-reviewer-certificate.jpg
+    - /assets/img/activity/certs/itis-2025-best-paper-certificate.jpg
+
+- date: 2022-03-25
+  date_text: 25 Mar 2022
+  type: Award
+  title: 'Academic Excellence Award, Graduate School of Science and Technology, Kumamoto University'
+  place: Department of Advanced Industrial Science, Kumamoto University, Japan
+  description: >-
+    Received the Academic Excellence Award from the Graduate School of Science and Technology, Kumamoto
+    University, in recognition of excellent academic performance in the doctoral course.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/academic-excellence-2022-certificate.jpg

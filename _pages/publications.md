@@ -32,18 +32,60 @@ nav_order: 1
   </p>
 
   {%- assign by_year = sch.publications | group_by: "year" | sort: "name" | reverse -%}
+  {%- assign this_year = site.time | date: "%Y" -%}
+  <div class="timeline pubs-timeline">
   {%- for g in by_year %}
-  <h2 class="year">{{ g.name }}</h2>
-  <ol class="pub-list">
-    {%- for p in g.items %}
-    <li class="pub-item">
-      <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
-      <div class="pub-authors">{{ p.authors }}</div>
-      <div class="pub-venue">{{ p.venue }}{% if p.citations > 0 %} <span class="pub-cites">Cited by {{ p.citations }}</span>{% endif %}</div>
-    </li>
-    {%- endfor %}
-  </ol>
+    <section class="timeline-group{% if g.name == this_year %} expanded{% endif %}" data-year="{{ g.name }}">
+      <button type="button" class="timeline-year" aria-expanded="false">
+        <span class="year-label">{{ g.name }}</span>
+        <span class="year-count">{{ g.items.size }}</span>
+        <span class="year-chevron" aria-hidden="true"></span>
+      </button>
+      <div class="timeline-group-body">
+      {%- for p in g.items %}
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            {%- if p.citations > 0 %}
+            <div class="timeline-meta"><span class="timeline-badge">Cited by {{ p.citations }}</span></div>
+            {%- endif %}
+            <h3 class="timeline-title"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a></h3>
+            <div class="timeline-place">{{ p.authors }}</div>
+            {%- if p.venue != "" %}<p>{{ p.venue }}</p>{% endif %}
+          </div>
+        </article>
+      {%- endfor %}
+      </div>
+      {%- if g.items.size > 1 %}
+      <button type="button" class="timeline-more" aria-expanded="false">Show {{ g.items.size | minus: 1 }} more</button>
+      {%- endif %}
+    </section>
   {%- endfor %}
+  </div>
+  <script>
+    (function () {
+      var groups = Array.prototype.slice.call(document.querySelectorAll('.pubs-timeline .timeline-group'));
+      // Each year shows its newest publication; the rest sit under a "Show more" button.
+      function layout(g) {
+        var items = g.querySelectorAll('.timeline-item');
+        var expanded = g.classList.contains('expanded');
+        items.forEach(function (el, i) { el.style.display = (i === 0 || expanded) ? '' : 'none'; });
+        var more = g.querySelector('.timeline-more');
+        if (more) {
+          more.textContent = expanded ? 'Show less' : 'Show ' + (items.length - 1) + ' more';
+          more.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        }
+        g.querySelector('.timeline-year').setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      }
+      groups.forEach(function (g) {
+        function flip() { g.classList.toggle('expanded'); layout(g); window.dispatchEvent(new Event('resize')); }
+        g.querySelector('.timeline-year').addEventListener('click', flip);
+        var more = g.querySelector('.timeline-more');
+        if (more) more.addEventListener('click', flip);
+        layout(g);
+      });
+    })();
+  </script>
 {%- else %}
   {%- assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016" | split: "," -%}
   {%- for y in years %}
