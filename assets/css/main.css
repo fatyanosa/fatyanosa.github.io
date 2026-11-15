@@ -1976,4 +1976,8 @@ html[data-theme=dark] body::before, html[data-theme=dark] body::after {
   background: #d97706;
 }
 
+.timeline-item[data-type=presenter] .timeline-badge {
+  background: #7c3aed;
+}
+
 /*# sourceMappingURL=main.css.map */
