@@ -350,16 +350,18 @@
 - date: 2025-10-21
   date_text: 21 Oct 2025
   type: Presenter
-  title: 'Presenter, SIET 2025 (10th International Conference on Sustainable Information Engineering and Technology)'
+  title: 'Presenter and Reviewer, SIET 2025 (10th International Conference on Sustainable Information Engineering and Technology)'
   place: Bali, Indonesia
   description: >-
     Presented two papers at the 10th International Conference on Sustainable Information Engineering and
     Technology (SIET 2025): "BERT Meets GPT: Enhancing Intrusion Detection Through Generative Oversampling"
     and "Multi-Criteria Evaluation of Batik Pattern Restoration Using the Simple Additive Weighting Decision Model".
+    I also served as a reviewer of the conference.
   thumbs_wide: true
   photos:
     - /assets/img/activity/certs/siet-2025-presenter-certificate.jpg
     - /assets/img/activity/certs/siet-2025-presenter-certificate-2.jpg
+    - /assets/img/activity/certs/siet-2025-reviewer-certificate.jpg
 
 - date: 2023-10-24
   date_text: 24 Oct 2023
@@ -504,3 +506,29 @@
     - /assets/img/activity/photos/nezar-patria-2025-lecture.jpg
   link: https://www.instagram.com/reel/DOxtmDBko-C/
   link_text: View on Instagram
+
+- date: 2025-10-12
+  date_text: 12 Oct 2025
+  type: Evaluator
+  title: 'Judge, Data Mining, HOLOGY 8.0 (Crafting Smart Digital Future)'
+  place: Faculty of Computer Science (FILKOM), Universitas Brawijaya
+  description: >-
+    Served as a judge for the Data Mining competition at HOLOGY 8.0, themed "Crafting Smart Digital Future",
+    organized by the Student Executive Board of the Faculty of Computer Science, Universitas Brawijaya,
+    on 12 October 2025.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/hology-8-2025-judge-certificate.jpg
+
+- date: 2023-06-27
+  date_text: 27 Jun 2023
+  type: Workshop
+  title: 'Participant, Workshop and ToT RAPIDS: Utilizing GPUs for Maximum Data Analysis Performance'
+  place: Universitas Brawijaya
+  description: >-
+    Took part in the workshop and training of trainers (ToT) *RAPIDS: Memanfaatkan GPU untuk Kinerja Analisis
+    Data yang Maksimal* (RAPIDS: Utilizing GPUs for Maximum Data Analysis Performance), organized by the AI Center
+    Universitas Brawijaya on 27 June 2023.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/rapids-2023-certificate.jpg
