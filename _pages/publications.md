@@ -31,6 +31,22 @@ nav_order: 1
     &middot; last synced {{ sch.updated }}
   </p>
 
+  {%- if site.data.books.size > 0 %}
+  <h3 class="stats-heading"><i class="fas fa-book"></i> Books</h3>
+  <ol class="pub-list">
+    {%- for b in site.data.books %}
+    <li class="pub-item book-item">
+      {%- if b.cover %}<img class="book-cover" src="{{ b.cover | relative_url }}" alt="{{ b.title | escape }}" loading="lazy">{% endif %}
+      <div class="book-info">
+      <span class="pub-title">{{ b.title }}</span>
+      <div class="pub-authors">{{ b.authors }}{% if b.editors %}; editors: {{ b.editors }}{% endif %}</div>
+      <div class="pub-venue">{{ b.publisher }} &middot; {{ b.pages }} pages &middot; {{ b.category }} &middot; ISBN {{ b.isbn }}{% if b.note %} <span class="pub-cites">{{ b.note }}</span>{% endif %}</div>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- endif %}
+
   {%- assign by_year = sch.publications | group_by: "year" | sort: "name" | reverse -%}
   {%- assign this_year = site.time | date: "%Y" -%}
   <div class="timeline pubs-timeline">
