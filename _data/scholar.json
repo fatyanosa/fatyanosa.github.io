@@ -1,34 +1,34 @@
 {
  "user": "odb3L2UAAAAJ",
  "profile_url": "https://scholar.google.com/citations?user=odb3L2UAAAAJ&hl=en",
- "updated": "2026-10-28",
+ "updated": "2026-11-15",
  "stats": {
-  "citations": 601,
+  "citations": 613,
   "h_index": 13,
-  "i10_index": 15
+  "i10_index": 16
  },
  "cited": {
   "Fatyanosa2017": 30,
   "Budiwati2019": 5,
-  "Fatyanosa2019": 9,
+  "Fatyanosa2019": 10,
   "Budiwati2021": 0,
   "Fatyanosa2021": 24,
   "Aji2021": 24,
   "Fatyanosa": 25,
   "Fatyanosa2018": 13,
-  "cahyawijaya-etal-2023-nusacrowd": 218,
+  "cahyawijaya-etal-2023-nusacrowd": 219,
   "MENDONCA2023104003": 8,
-  "10020788": 8,
+  "10020788": 9,
   "budiwati-etal-2021-optimize": 27,
   "aji-etal-2021-paracotta": 19,
   "Fatyanosa_Mahmudy_Marjuki_2018": 8,
   "Fatyanosa_Utaminingrum_Data_2018": 5,
   "inproceedings": 6,
   "Pratama2025": 8,
-  "cahyawijaya2025crowdsourcecrawlgeneratecreating": 21,
-  "doi:10.4258/hir.2025.31.1.16": 5,
+  "cahyawijaya2025crowdsourcecrawlgeneratecreating": 22,
+  "doi:10.4258/hir.2025.31.1.16": 6,
   "hakim-etal-2025-anak": 5,
-  "10696938": 14,
+  "10696938": 17,
   "10611845": 1,
   "FATYANOSA2024124016": 15,
   "10.1007/978-3-031-48316-5_8": 0,
@@ -37,12 +37,44 @@
  },
  "publications": [
   {
+   "title": "A Comparative Study of Fine-Tuned Pretrained BERT Models for Host-Based Intrusion Detection Using the ADFA-LD Dataset",
+   "authors": "SZR Akmal, TN Fatyanosa, M Data",
+   "venue": "2026 11th International Conference on Sustainable Information Engineering …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:NhqRSupF_l8C"
+  },
+  {
+   "title": "A Comparative Study of On-Device LLM Text Summarization: Evaluating 4-bit, 8-bit, and BFloat16 Quantization of Qwen2. 5-0.5 B-Instruct on Apple Silicon with the MLX Framework",
+   "authors": "N Rosyadi, B Bagus, SP Kahvi, L Muflikhah, TN Fatyanosa",
+   "venue": "2026 11th International Conference on Sustainable Information Engineering …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:b0M2c_1WBrUC"
+  },
+  {
    "title": "A Systematic Comparison of MediaPipe Holistic and RTMPose Frameworks for Indonesia Sign Language Skeleton Extraction",
    "authors": "SZR Akmal, N Afkaar, AR Kuntadi, IN Sari, TN Fatyanosa",
    "venue": "2026 22nd IEEE International Colloquium on Signal Processing & Its …",
    "year": 2026,
    "citations": 0,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:3s1wT3WcHBgC"
+  },
+  {
+   "title": "Comparative Analysis of Retrieval-Augmented Generation Performance in a Clinical Nutrition Question-Answering System",
+   "authors": "MY Hakim, TN Fatyanosa, M Data, UD Erliana",
+   "venue": "2026 11th International Conference on Sustainable Information Engineering …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:_xSYboBqXhAC"
+  },
+  {
+   "title": "Comparison of Prompt Variations on Poetry Quality Using a Fine-Tuned GPT-2 Model",
+   "authors": "IWI Zenatmaja¹, TN Fatyanosa¹, P Zulvarina¹",
+   "venue": "Springer Nature",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:1sJd4Hv_s6UC"
   },
   {
    "title": "Data Augmentation and Hyperparameter Optimization for Indonesian Sign Language Gloss Translation Using IndoBART",
@@ -69,6 +101,14 @@
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:M3NEmzRMIkIC"
   },
   {
+   "title": "Lightweight Multimodal Emotion Recognition with Intermediate Fusion for Edge Deployment",
+   "authors": "D Halim, FA Bachtiar, TN Fatyanosa",
+   "venue": "2026 11th International Conference on Sustainable Information Engineering …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:xtRiw3GOFMkC"
+  },
+  {
    "title": "Optimizing Deep Neural Network Using Genetic Algorithm for Hypertension Risk Prediction on Mobile Apps",
    "authors": "L Muflikhah, WK Wardhana, TN Fatyanosa, RS Perdana, H Ratnawati, ...",
    "venue": "Array, 101105",
@@ -77,11 +117,27 @@
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:rO6llkc54NcC"
   },
   {
+   "title": "Robustness Evaluation of the FLAN-T5 Model Against Prompt Variations in Text Classification Tasks",
+   "authors": "MAZ Yashifa, TN Fatyanosa, PP Adikara",
+   "venue": "2026 11th International Conference on Sustainable Information Engineering …",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:abG-DnoFyZgC"
+  },
+  {
+   "title": "~ rupiah at WMT26: Training-Free Context-Aware Subtitle Translation with QE Selection",
+   "authors": "P Yudhistira, S Azzahra, D Malik, TN Fatyanosa",
+   "venue": "Proceedings of the Eleventh Conference on Machine Translation, 2623-2630",
+   "year": 2026,
+   "citations": 0,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:EUQCXRtRnyEC"
+  },
+  {
    "title": "Crowdsource, crawl, or generate? creating sea-vl, a multicultural vision-language dataset for southeast asia",
    "authors": "S Cahyawijaya, H Lovenia, JRA Moniz, TH Wong, MR Farhansyah, ...",
    "venue": "ACL 2025",
    "year": 2025,
-   "citations": 21,
+   "citations": 22,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:HDshCWvjkbEC"
   },
   {
@@ -89,7 +145,7 @@
    "authors": "DN Adli, TN Fatyanosa, F AlHuda, MM Sholikin, S Sugiharto",
    "venue": "Smart Agricultural Technology, 101421",
    "year": 2025,
-   "citations": 13,
+   "citations": 15,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:k_IJM867U9cC"
   },
   {
@@ -109,6 +165,14 @@
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:iH-uZ7U-co4C"
   },
   {
+   "title": "Feature selection for hypertension risk prediction using XGBoost on single nucleotide polymorphism data",
+   "authors": "L Muflikhah, TN Fatyanosa, N Widodo, RS Perdana, H Ratnawati",
+   "venue": "Healthcare Informatics Research 31 (1), 16-22",
+   "year": 2025,
+   "citations": 6,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:mB3voiENLucC"
+  },
+  {
    "title": "Anak baik: A low-cost approach to curate Indonesian ethical and unethical instructions",
    "authors": "SA Hakim, RS Perdana, TN Fatyanosa",
    "venue": "Proceedings of the Second Workshop in South East Asian Language Processing …",
@@ -117,12 +181,12 @@
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:hFOr9nPyWt4C"
   },
   {
-   "title": "Feature selection for hypertension risk prediction using XGBoost on single nucleotide polymorphism data",
-   "authors": "L Muflikhah, TN Fatyanosa, N Widodo, RS Perdana, H Ratnawati",
-   "venue": "Healthcare Informatics Research 31 (1), 16-22",
+   "title": "Analisis Perbandingan Model Machine Learning Tree-Based dan Non-Tree-Based untuk Tugas Klasifikasi",
+   "authors": "F Hilmi, K Taqiyassar, NRP Pratama, SC Kusuma, HR Nurwachid, ...",
+   "venue": "Jurnal Teknologi Informasi dan Ilmu Komputer 12 (4), 875-884",
    "year": 2025,
-   "citations": 5,
-   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:mB3voiENLucC"
+   "citations": 2,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:isC4tDSrTZIC"
   },
   {
    "title": "Klasifikasi Sentimen Lintas Domain pada Komentar Media Sosial Menggunakan IndoBERT dengan Fine-Tuning dan Data Augmentation",
@@ -131,14 +195,6 @@
    "year": 2025,
    "citations": 2,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:GnPB-g6toBAC"
-  },
-  {
-   "title": "Analisis Perbandingan Model Machine Learning Tree-Based dan Non-Tree-Based untuk Tugas Klasifikasi",
-   "authors": "F Hilmi, K Taqiyassar, NRP Pratama, SC Kusuma, HR Nurwachid, ...",
-   "venue": "Jurnal Teknologi Informasi dan Ilmu Komputer 12 (4), 875-884",
-   "year": 2025,
-   "citations": 1,
-   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:isC4tDSrTZIC"
   },
   {
    "title": "UB_Tel-U at SemEval-2025 Task 11: Emotions Without Borders-A Unified Framework for Multilingual Classification Using Augmentation and Ensemble",
@@ -213,20 +269,20 @@
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:YFjsv_pBGBYC"
   },
   {
+   "title": "Detection of AI-generated images from various generators using gated expert convolutional neural network",
+   "authors": "RAF Saskoro, N Yudistira, TN Fatyanosa",
+   "venue": "IEEE Access 12, 147772-147783",
+   "year": 2024,
+   "citations": 17,
+   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:7PzlFSSx8tAC"
+  },
+  {
    "title": "Meta-learning for vessel time series data imputation method recommendation",
    "authors": "TN Fatyanosa, NA Firdausanti, PHN Prayoga, M Kuriu, M Aritsugi, ...",
    "venue": "Expert Systems with Applications 251 (1)",
    "year": 2024,
    "citations": 15,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:mVmsd5A6BfQC"
-  },
-  {
-   "title": "Detection of AI-generated images from various generators using gated expert convolutional neural network",
-   "authors": "RAF Saskoro, N Yudistira, TN Fatyanosa",
-   "venue": "IEEE Access 12, 147772-147783",
-   "year": 2024,
-   "citations": 14,
-   "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:7PzlFSSx8tAC"
   },
   {
    "title": "Variational Mode Decomposition and Linear Embeddings are What You Need For Time-Series Forecasting",
@@ -289,7 +345,7 @@
    "authors": "S Cahyawijaya, H Lovenia, AF Aji, GI Winata, B Wilie, R Mahendra, ...",
    "venue": "ACL 2023",
    "year": 2022,
-   "citations": 218,
+   "citations": 219,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:4TOpqqG69KYC"
   },
   {
@@ -297,7 +353,7 @@
    "authors": "S Cahyawijaya, AF Aji, H Lovenia, GI Winata, B Wilie, R Mahendra, F Koto, ...",
    "venue": "arXiv preprint arXiv:2207.10524",
    "year": 2022,
-   "citations": 14,
+   "citations": 15,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:Wp0gIr-vW9MC"
   },
   {
@@ -305,7 +361,7 @@
    "authors": "NA Firdausanti, TN Fatyanosa, M Data, I Mendonça, M Aritsugi",
    "venue": "2022 IEEE International Conference on Big Data (Big Data), 271-280",
    "year": 2022,
-   "citations": 8,
+   "citations": 9,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:kNdYIx-mwKoC"
   },
   {
@@ -369,7 +425,7 @@
    "authors": "TN Fatyanosa, M Aritsugi",
    "venue": "Proceedings of the 13th International Workshop on Semantic Evaluation, 1185-1191",
    "year": 2019,
-   "citations": 9,
+   "citations": 10,
    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=odb3L2UAAAAJ&citation_for_view=odb3L2UAAAAJ:YsMSGLbcyi4C"
   },
   {
@@ -497,7 +553,7 @@
   "author_id": "57201530572",
   "profile_url": "https://www.scopus.com/authid/detail.uri?authorId=57201530572",
   "documents": 34,
-  "citations": 239,
+  "citations": 254,
   "h_index": 8
  }
 }
