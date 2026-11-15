@@ -21,10 +21,11 @@ nav_order: 3
 </div>
 
 <div class="timeline">
+  {% assign this_year = site.time | date: "%Y" %}
   {% assign year_groups = items | group_by_exp: "i", "i.date | date: '%Y'" %}
   {% for group in year_groups %}
   {% assign year = group.name %}
-  <section class="timeline-group" data-year="{{ year }}">
+  <section class="timeline-group{% if year == this_year %} expanded{% endif %}" data-year="{{ year }}">
     <button type="button" class="timeline-year" aria-expanded="false">
       <span class="year-label">{{ year }}</span>
       <span class="year-count">{{ group.items.size }}</span>
