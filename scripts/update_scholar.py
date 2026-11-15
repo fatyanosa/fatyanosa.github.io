@@ -18,6 +18,10 @@ USER = sys.argv[1] if len(sys.argv) > 1 else "odb3L2UAAAAJ"
 OUT = Path(__file__).resolve().parent.parent / "_data" / "scholar.json"
 PAGE = 100
 SCOPUS_ID = "57201530572"
+# SINTA mirrors Scopus with a delay. Known-correct values from Scopus itself go here;
+# each one is used only while it is higher than what SINTA reports, so it stops
+# mattering once SINTA catches up.
+SCOPUS_MIN = {"h_index": 9}  # confirmed on Scopus, November 2026
 SINTA_URL = "https://sinta.kemdiktisaintek.go.id/authors/profile/6869872"
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
@@ -159,6 +163,8 @@ def main():
     if scopus is None and OUT.exists():  # keep the previous values if SINTA is unavailable
         scopus = json.loads(OUT.read_text(encoding="utf-8")).get("scopus")
     if scopus:
+        for k, v in SCOPUS_MIN.items():
+            scopus[k] = max(scopus.get(k, 0), v)
         data["scopus"] = scopus
     OUT.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print("Wrote %d publications to %s" % (len(pubs), OUT))

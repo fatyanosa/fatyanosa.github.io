@@ -296,17 +296,20 @@
 - date: 2024-10-15
   date_text: 15–16 Oct 2024
   type: Moderator
-  title: 'Moderator and Presenter, SIET 2024 (9th International Conference on Sustainable Information Engineering and Technology)'
+  title: 'Moderator, Presenter and Best Paper, SIET 2024 (9th International Conference on Sustainable Information Engineering and Technology)'
   place: Kuala Lumpur, Malaysia
   description: >-
     Moderated the keynote by Alham Fikri Aji, Ph.D. (Mohamed bin Zayed University of Artificial
     Intelligence), "Multilingual NLP: Challenges, Progress, and Opportunity", and presented the paper
     "Heart Disease Prediction System Employing Machine Learning" at the 9th International Conference on
-    Sustainable Information Engineering and Technology (SIET 2024).
+    Sustainable Information Engineering and Technology (SIET 2024). Our paper "Restoration of Batik Patterns
+    with Visual Caption Synthesis and Generative Transformation Models", with Irawati Nurmala Sari and Novanto
+    Yudistira, received a best paper award.
   thumbs_wide: true
   photos:
     - /assets/img/activity/photos/siet-2024-moderator.jpg
     - /assets/img/activity/certs/siet-2024-presenter-certificate.jpg
+    - /assets/img/activity/certs/siet-2024-best-paper.jpg
   link: https://siet.ub.ac.id/event/siet24
   link_text: SIET 2024 website
 
@@ -399,3 +402,52 @@
   thumbs_wide: true
   photos:
     - /assets/img/activity/certs/academic-excellence-2022-certificate.jpg
+
+- date: 2024-10-15
+  date_text: 15 Oct 2024
+  type: Award
+  title: 'Best Paper, SENTRIN 2024 (Seminar Nasional Teknologi dan Rekayasa Informasi)'
+  place: Online, Universitas Brawijaya
+  description: >-
+    Our paper "Analisis Perbandingan Model Machine Learning Tree-Based dan Non-Tree-Based untuk Tugas
+    Klasifikasi" (a comparison of tree-based and non-tree-based machine learning models for classification),
+    with Fadhilah Hilmi, Kenzie Taqiyassar, Naufal Romero Putra Pratama, Satrio Condro Kusuma and Hafiz Rizky
+    Nurwachid, received the Best Paper award at SENTRIN 2024, held online on 15 October 2024.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/sentrin-2024-best-paper.jpg
+
+- date: 2017-10-01
+  date_text: 2017
+  type: Award
+  title: 'Best Session Presenter, ICACSIS 2017 (International Conference on Advanced Computer Science and Information Systems)'
+  description: >-
+    Received the Best Session Presenter award at ICACSIS 2017 for the paper "Extracting Fuzzy Rules and
+    Parameters Using Particle Swarm Optimization for Rainfall Forecasting".
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/icacsis-2017-best-session-presenter.jpg
+
+- date: 2016-10-17
+  date_text: 17–18 Oct 2016
+  type: Award
+  title: 'Best Presenter, SIET 2016 (1st International Conference on Sustainable Information Engineering and Technology)'
+  place: Widyaloka Building, Universitas Brawijaya, Malang, Indonesia
+  description: >-
+    Received the Best Presenter award at the 1st International Conference on Sustainable Information
+    Engineering and Technology (SIET 2016).
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/certs/siet-2016-best-presenter.jpg
+
+- date: 2025-12-31
+  date_text: 2025
+  type: Award
+  title: 'Best Publication Contributor (Top 5) in 2025, Faculty of Computer Science (FILKOM), Universitas Brawijaya'
+  place: Faculty of Computer Science (FILKOM), Universitas Brawijaya
+  description: >-
+    Ranked among the top publication contributors of FILKOM UB in 2025, with 6 publications.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/top-contributor-2025-title.jpg
+    - /assets/img/activity/photos/top-contributor-2025-chart.jpg
