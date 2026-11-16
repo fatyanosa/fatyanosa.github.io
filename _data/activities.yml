@@ -549,3 +549,15 @@
   links:
     - text: Read the paper
       url: https://ieeexplore.ieee.org/document/11108690
+
+- date: 2026-11-16
+  type: Collaboration
+  title: Launching the new PediaExpert with RSSA
+  place: RSSA, Malang
+  description: >-
+    Collaborated with RSSA (Rumah Sakit Umum Daerah Dr. Saiful Anwar) to launch the new
+    [PediaExpert](https://pediaexpert.id) with additional features, together with the
+    nutrition research team of Universitas Brawijaya.
+  thumbs_wide: true
+  photos:
+    - /assets/img/activity/photos/pediaexpert-rssa-2026.jpg
