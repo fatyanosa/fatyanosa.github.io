@@ -765,3 +765,21 @@ html[data-theme='dark'] body::before, html[data-theme='dark'] body::after { opac
 .book-item .book-cover { width: 96px; height: auto; border-radius: 6px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25); flex: none; }
 .book-item .book-info { min-width: 0; }
 @media (max-width: 480px) { .book-item .book-cover { width: 72px; } }
+
+// Phone: the profile photo was full width; keep it small and centred above the text
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+    text-align: center;
+    figure, picture, img {
+      max-width: 180px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .profile-links { justify-content: center; }
+  }
+}
