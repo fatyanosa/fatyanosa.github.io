@@ -58,9 +58,10 @@ horizontal: false
 
 <h2 class="category">{{ site.data.grants.title }}</h2>
 <div class="timeline grants-timeline">
+  {% assign this_year = site.time | date: "%Y" %}
   {% assign grant_years = site.data.grants.contents | group_by_exp: "g", "g.year | split: ' ' | last" %}
   {% for group in grant_years %}
-  <section class="timeline-group" data-year="{{ group.name }}">
+  <section class="timeline-group{% if group.name == this_year %} expanded{% endif %}" data-year="{{ group.name }}">
     <button type="button" class="timeline-year" aria-expanded="false">
       <span class="year-label">{{ group.name }}</span>
       <span class="year-count">{{ group.items.size }}</span>
